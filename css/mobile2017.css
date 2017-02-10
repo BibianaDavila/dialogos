@@ -1,0 +1,118 @@
+/*======== geral! ==========*/
+body{
+	overflow-y: scroll !important;
+}
+section{
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	display: table;	
+}
+section article{
+	position: relative;
+	top: auto !important;
+	left: auto !important;
+	transform: none !important;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*========== confs! ============*/
+.the-title{
+	font-size: 24px;
+}
+.info{
+	max-width: 100%;
+	width: 100%;
+	padding: 0px 50px 0px 0px;
+}
+.left .info{
+	float: none;
+	max-width: 100%;
+	width: 100%;
+	padding: 0px 0 0 50px;
+}
+
+.realizador-images img{
+	height: 71px;
+}
+#obec{
+	height: 81px;
+}
+
+.modal-open .modal{
+    transform: none;
+}
+
+@media only screen and (max-width: 767px){
+	.title{
+		font-size: 70px;
+	}
+	.title span{
+		font-size: 25px;
+		margin-left: 3px;
+		margin-top: -27px;
+	}
+	.right.img-conf{
+		float: none;
+		padding: 5px 0px 20px 0px;
+	}
+	.right.img-conf img{
+		float: none;
+	}
+	.img-conf{
+		padding: 5px 0px 20px 0px;
+	}
+	.conf-date{
+		top: 10px;
+		right: 0px;
+	}
+
+	.info, .left .info{
+		width: 100%;
+		padding: 10px 30px;
+	}
+
+	.realizador-images img{
+		height: 48px;
+		margin: 10px;
+	}
+	#obec{
+		height: 58px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+
+	.title{
+		font-size: 55px;
+	}
+	.title span{
+		font-size: 20px;
+		margin-top: -21px;
+	}
+
+	.section-title-line{
+		width: 60px;
+	}
+	.the-title{
+		font-size: 18px;
+	}
+
+	.schedule-container{
+		margin-bottom: 25px;
+	}
+	.schedule-block{
+		margin: 10px 15px;
+		padding-bottom: 93px; 
+	}
+	.schedule-date.day{
+		font-size: 50px;
+	}
+	.schedule-date.month, .date-title{
+		font-size: 14px;
+	}
+	.button{
+		margin: 15px !important;
+	}
+}

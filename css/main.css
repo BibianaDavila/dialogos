@@ -1,0 +1,164 @@
+/*=== Fontes ======================*/
+@font-face {
+    font-family: Adam;
+    src: url(../font/adam/ADAM.CG_PRO.otf);
+}
+@font-face {
+    font-family: Myriad;
+    src: url(../font/myriadpro.ttf);
+}
+
+/*=== geral! ================*/
+body{
+	margin: 0px;
+}
+
+.link{
+	font-weight: normal;
+	color: inherit !important;
+	text-decoration: none !important; 
+}
+.link:hover{
+	color: inherit;
+	opacity: .8;
+}
+/*=== Idioma  ===========================*/
+.world-img {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 9999;
+	cursor: pointer;
+	transition: opacity .3s ease;
+}
+.world-img:hover {
+	opacity: .8;
+}
+.lang-dropdown {
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	left: initial;
+}
+
+
+/*=== Home!  ===========================*/
+.title {
+    font-family: "Adam", Arial, sans-serif;
+    font-size: 147px;
+    letter-spacing: -5px;
+    text-align: left;
+    color: #FFF;
+    margin: 0px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-font-smoothing: antialiased;
+    z-index: 10;
+}
+.title span {
+    display: block;
+    font-size: 52px;
+    letter-spacing: -1.5px;
+    color: #545453;
+    margin-top: -55px;
+    margin-left: 7px;
+}
+.sub-title{
+	margin-top: 165px;
+	font-size: 76px;
+	letter-spacing: 0px;
+	border-bottom: 0px;
+	padding-bottom: 0px;
+}
+.sub-title a{
+	padding: 0px 15px;
+}
+.info-description {
+	max-width: 300px
+}
+/*=== Conferências!  ===========================*/
+section{
+	min-height: 100vh;
+	width: 100%;
+	background-color: white;
+	background: linear-gradient(#f8f8f8, #fff);
+}
+#home {	
+	width: 100%;
+	background: #918f94;
+	background-image: url('../image/2017/bg.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+	background-position: bottom center;
+	/*animation: pulse 5s infinite;*/
+}
+#home:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#home article {
+	display: table;
+	margin: 0 auto;
+	height: 100%;
+}
+
+
+/*
+-------------------------------------------------------
+	MEDIA CONFIGS
+-------------------------------------------------------
+*/
+@media (max-width: 991px){
+	.title{
+        font-size: 105px;
+    }
+    .title span{
+        font-size: 37px;
+        margin-left: 5px;
+        margin-top: -38px;
+	}
+	.sub-title{
+        font-size: 57px;
+        margin-top: 115px;
+        width: 100%;
+        text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	.title{
+        font-size: 90px;
+    }
+    .title span{
+        font-size: 32px;
+        margin-top: -33px;
+        margin-left: 3px;
+	}
+	.sub-title{
+        font-size: 50px;
+	}
+}
+@media (max-width: 767px) {
+	.title{
+        font-size: 62px;
+    }
+    .title span{
+        font-size: 25px;
+        margin-top: -24px;
+        margin-left: 2px;
+	}
+	.sub-title{
+		margin-top: 60px;
+        font-size: 35px;
+	}
+}

@@ -1,0 +1,171 @@
+{
+	"conferences" : [
+		{
+			"id":"1",
+			"edition":"1", 
+			"type":"conference", 
+			"date":"June 07",
+			"title":"Cultural economics: popular festivities and entertainment industry",
+			"description":"The conference aims to focus on the advent of the typical economic practices and logics that have guaranteed a status of large markets to the traditional cultural sectors. The lecture will cover the sectors of cultural manifestations in the wide sense, such as popular festivities, and the history of the television market in Brazil.",
+			"panelists":[
+				{
+					"name":"Paulo Miguez",
+					"university":"Universidade Federal da Bahia",
+					"resume":"Doctor of Communication and Contemporary Culture (UFBA), vice-rector of the Federal University of Bahia (2014-2018) and professor of the Institute of Humanities, Arts and Science of UFBA and of the Multidisciplinary Program of Post-graduation on Culture and Society (UFBA).",
+					"picture":"pmiguez"
+				},
+				{
+					"name":"Fábio Sá Earp",
+					"university":"Universidade Federal do Rio de Janeiro",
+					"resume":"Economist and adjunct professor of UFRJ, who has experience in the area of Entertainment Economy, especially Economics of Culture, Tourism, and Sport. Writer of the book Bread and Circuses – Frontiers and perspectives of the entertainment economy (2002), among other important publications.",
+					"picture":"fearp"
+				}
+			],
+			"youtube":[
+				{
+					"name":"Watch the conference",
+					"link":"https://youtu.be/Zl-QFgEKrfs"
+				}
+			],
+			"facebook":"https://www.facebook.com/events/1751397558431586/",
+			"path":"M0 100 C 20 0 50 0 100 100 Z",
+			"color-1":"#e3a119",
+			"color-2":"#ffd845"
+		},
+		{
+			"id":"2",
+			"edition":"2", 
+			"type":"conference", 
+			"date":"July 27",
+			"title":"Collaborative economy: creativity and the future of labor",
+			"description":"Collaborative economy, technologies of information, and new forms of labor are in the center of the changes made by the “new economy”. Therefore, the conference will debate the new conditions of production and circulation of cultural and creative goods in contemporary society, after the advent of digital and web gadgets, involving the centrality of the technologies in the overcoming of asymmetric models of diffusion.",
+			"panelists":[
+				{
+					"name":"Glaucia Campregher",
+					"university":"Universidade Federal do Rio Grande do Sul",
+					"resume":"Professor of the Department of Economics and International Relations of UFRGS and researcher of the Creative Economy Observatory (OBEC-UFRGS).",
+					"picture":"gcampregher"
+				},
+				{
+					"name":"Messias Bandeira",
+					"university":"Universidade Federal da Bahia",
+					"resume":"Doctor of Communication and Contemporary Culture (UFBA), adjunct professor of the Institute of Humanities, Arts and Science (IHAC-UFBA), and coordinator of the Creative Economy Observatory of Bahia",
+					"picture":"mbandeira"
+				}
+			],
+			"youtube":[
+				{
+					"name":"Watch the conference",
+					"link":"https://www.youtube.com/watch?v=vnR1uj6NOXc"
+				}
+			
+			],
+			"report":[
+				
+			],
+			"facebook":"https://www.facebook.com/events/1075936132495977/",
+			"path":"M0 0 C 50 100 80 100 100 0 Z",
+			"color-1":"#e3a119",
+			"color-2":"#ffd845"
+		},
+		{
+			"id":"3",
+			"edition":"3", 
+			"type":"conference", 
+			"date":"August 08",
+			"title":"Cultural policy: contemporary reflections",
+			"description":"The lecturers will debate the context of cultural policy and its impact on local cultural backgrounds, from a public and private spheres’ perspective. The speech will present contemporary discussions about the construction of cultural public policy, in order to set the historic outlook of the role of the State and the role of the private sector in this process, which interchanges with social participation, citizenship, and cultural diversity.",
+			"panelists":[
+				{
+					"name":"Lia Calabre",
+					"university":"Fundação Casa de Rui Barbosa",
+					"resume":"President of the Casa de Rui Barbosa Foundation, historian, master and doctor of Social History (UFF). Her principal areas of study are cultural policy and history of Brazilian radio.",
+					"picture":"lcalabre"
+				},
+				{
+					"name":"Francisco Marshall",
+					"university":"Universidade Federal do Rio Grande do Sul",
+					"resume":"Historian and doctor of Social History (USP), professor associate of the Federal University of Rio Grande do Sul, acting on the Department and Port-graduation program of History (IFCH) and in the Post-graduation program of Visual Arts (IA). Marshall is the founder and curator of StudioClio (POA).",
+					"picture":"fmarshall"
+				}
+			],
+			"youtube":[
+				{
+					"name":"Watch the conference",
+					"link":"https://www.youtube.com/watch?v=xlxGlB_WH74"
+				}
+			],
+			"facebook":"",
+			"path":"M0 100 C40 0 60 0 100 100 Z",
+			"color-1":"#3c7c3c",
+			"color-2":"#50b858"
+		},
+		{
+			"id":"4",
+			"edition":"4", 
+			"type":"conference", 
+			"date":"September 13",
+			"title":"Audiovisual economy: a glance at the market from the makers’ perspective",
+			"description":"The conference will discuss the cinema sector, from the movie makers’ point of view. The lecturers will present the panorama of the audiovisual sector in Brazil, as well as the main obstacles and advantages for the contemporary cultural production.",
+			"panelists":[
+				{
+					"name":"Carlos Gerbase",
+					"university":"Pontifícia Universidade Católica do Rio Grande do Sul",
+					"resume":"Doctor of Social Communication, post-doctor of Cinema (Paris III University – Sorbonne Nouvelle, 2010). He is a professor at PUCRS, movie director, and owner of the production company Prana Filmes.",
+					"picture":"cgerbase"
+				},
+				{
+					"name":"Alfredo Bertini",
+					"university": "Secretaria do Audiovisual - SAv/MinC",
+					"resume": "Economist and director of Cine PE - Audiovisual Festival. He is currently Secretary of the Audiovisual (SAV / Ministry of Culture).",
+					"picture":"abertini"
+				}
+			],
+			"youtube":[
+				{
+					"name":"Watch the conference",
+					"link":"https://www.youtube.com/watch?v=nNV1VAj0B80"
+				}	
+			],
+			"facebook":"https://www.facebook.com/events/187974178274854/",
+			"path":"M0 0 C 40 100 60 100 100 0 Z",
+			"color-1":"#3c7c3c",
+			"color-2":"#50b858"
+		},
+		{
+			"id":"5",
+			"edition":"5", 
+			"type":"conference", 
+			"date":"November 08",
+			"title":"Creative Economy, Entrepreneurship, and new social technologies",
+			"description":"The conference aims to debate contemporary culture as a resource that generates and attracts investment. The lecturers will present an outlook of social and economic development through culture, as well as the current technological mediations that operate these processes, less by instrumentality and more by performativity.",
+			"panelists":[
+				{
+					"name":"Marcos André Carvalho",
+					"university":"Rio Criativo",
+					"resume":"Director of the Creative Rio",
+					"picture":"mcarvalho"
+				},
+				{
+					"name":"Paul Heritage",
+					"university":"Queen Mary University of London",
+					"resume":"Artistic director of the People's Palace Project and professor of drama and performance at Queen Mary University of London.",
+					"picture": "pheritage"
+				},
+				{
+					"name":"Leonardo Brant",
+					"university":"Brant Associados",
+					"resume": "Sócio-fundador da BRANT ASSOCIADOS, empresa de inteligência e estratégia para organizações culturais e negócios criativos. Diretor-associado da DEUSDARÁ FILMES, produtora independente especializada em documentários. ",
+					"picture": "lbrant"
+				}
+			],
+			"youtube":[
+			
+			],
+			"facebook":"",
+			"path":"M0 100 C 20 0 50 0 100 100 Z",
+			"color-1":"#fff",
+			"color-2":"#fff"
+		}
+	]
+}

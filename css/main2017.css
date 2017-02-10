@@ -1,0 +1,552 @@
+/*=== Fontes ======================*/
+@font-face {
+    font-family: Lato Regular;
+    src: url('../font/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: Lato Light;
+    src: url('../font/Lato-Light.ttf');
+}
+@font-face {
+    font-family: Lato Black;
+    src: url('../font/Lato-Black.ttf');
+}
+@font-face {
+    font-family: Adam;
+    src: url(../font/adam/ADAM.CG_PRO.otf);
+}
+@font-face {
+    font-family: Myriad;
+    src: url(../font/myriadpro.ttf);
+}
+@font-face {
+    font-family: 'Adobe Garamond';
+    src: url(../font/AdobeGaramondProRegular.ttf);
+}
+
+/*=== Geral ======================*/
+body {
+	font-family: "Myriad", Arial, sans-serif;
+	font-size: 14px;
+    color: #6f6e73;
+	height: 100%;
+	overflow-x: hidden;
+	margin: 0px;
+    text-align: justify;
+}
+section{
+    background: linear-gradient(#f1f2f3, #fff);
+}
+section article{
+    position: absolute;
+    width: 100%;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.line{
+    padding: 100px 35px;
+}
+h1, .h1{
+    font-weight: normal;
+}
+
+.main{
+    transition: .5s all ease;
+}
+.loading .main{
+    opacity: 0;
+}
+
+.loaded .main{
+    opacity: 1;
+}
+.loading .loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.loading .loader img{
+    width: 100px;
+}
+
+.loaded .loader{
+    display: none;
+}
+#obec{
+    height: 110px;
+}
+/*=== Links  ===========================*/
+a{
+    color: black;
+    font-weight: bold;
+}
+.link{
+    font-weight: normal;
+    color: inherit !important;
+    text-decoration: none !important; 
+}
+.link:hover{
+    color: inherit;
+    opacity: .8;
+}
+
+.link-report{
+    font-family: "Lato Regular";
+    font-size: 16px;
+    color: #fcfcfc;
+    transition: opacity .2s;
+}
+.link-report:hover, .link-report:active, .link-report:focus{
+    text-decoration: none;
+    color: #fcfcfc;
+    opacity: .5;
+}
+/*=== Botões ======================*/
+.button {
+    display: inline-block !important;
+    margin: 22px !important;
+    width: 155px;
+    font-family: "Lato Regular";
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #fcfcfc;
+    text-transform: uppercase;
+    background-color: #7d7d82;
+    border: 2px solid #747474;
+    display: block;
+    padding: 8px 0px;
+    transition: all .5s ease;
+}
+
+.button:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: #161c1f;
+    border-color: #000;
+    color: #FFFFFF;
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    transform: translateY(-1px);
+}
+
+/*=== Idioma  ===========================*/
+.world-img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+.world-img:hover {
+    opacity: .8;
+}
+.lang-dropdown {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    left: initial;
+}
+
+/*=== Títulos das seções ========*/
+.the-title {
+    color: #6f6e73;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: "Lato Regular";
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 0px 0px 5px 0px;
+}
+.section-title{
+    padding-bottom: 30px;
+}
+.section-title-circle{
+    background-image: url('../image/icones/circles.png');
+    background-repeat: no-repeat;
+    background-size: 55px auto;
+    background-position: center;
+    width: 55px;
+    height: 10px;
+    padding: 20px 0px;
+    margin: auto;
+}
+.section-title-line{
+    display: inline-block;
+    background-color: #6f6e73;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 90px;
+    height: 0px;
+    padding: 1px 0px;
+    margin: 9px 10px;
+}
+.year{
+    font-size: 34px;
+    font-family: 'Adobe Garamond';
+    color: #6f6e73;
+}
+
+
+/*=== Home ======================*/
+#home{ 
+    background: #918f94;
+    background-image: url('../image/2017/bg.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position: bottom center;
+}
+.title {
+    font-family: "Adam", Arial, sans-serif;
+    font-size: 147px;
+    letter-spacing: -5px;
+    text-align: left;
+    color: #FFF;
+    margin: 0px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-font-smoothing: antialiased;
+    z-index: 10;
+}
+.title span {
+    display: block;
+    font-size: 52px;
+    letter-spacing: -1.5px;
+    color: #545453;
+    margin-top: -55px;
+    margin-left: 7px;
+}
+
+/*=== Descrição ===============*/
+.videoWrapper{
+    margin-right: 20px;
+}
+.img-icon{
+    height: 25px;
+    width: auto;
+    margin: 10px 8px 25px 8px;
+}
+/*=== Datas ===================*/
+.schedule-container{
+    margin-bottom: 135px;
+    color: #6f6e73;
+}
+.schedule-date{
+    font-family: "Lato Light", Arial, sans-serif;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.date-title{
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+.schedule-date-container{
+    padding: 0px;
+    margin-top: 5px;
+}
+.schedule-date.day{
+    font-size: 70px;
+}
+.schedule-date.month{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -20px;
+}
+.schedule-hour{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -60px;
+    margin-bottom: 40px;
+}
+.schedule-block {
+    padding: 0 0 128px 0px;
+    margin: 0 50px;
+    border-bottom: 5px solid #d7d7d9;
+}
+.schedule-content{
+    position: absolute;
+    bottom: 0px;
+    padding-left: 95px;
+}
+.schedule-conference {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 120px;
+    transform: translateY(-50%);
+    line-height: 1.3rem;
+}
+/*=== Local =======================*/
+.mapa {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+/*=== Conferências ==================*/
+/* titulo da conferência!!! */
+.conference-title{
+    text-align: left;
+    font-family: 'Lato Regular';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+/* data */
+.conf-date{
+    background-color: #6f6e73;
+    position: absolute;
+    padding: 0px 18px 15px 18px;
+    top: 5px;
+    right: 30px;
+    color: white;
+}
+.right .conf-date{
+    right: auto;
+
+}
+.conf-date .schedule-date-container{
+    margin-top: -5px;
+}
+/* descrição */
+.conference-description{
+    font-size: 14px;
+    text-align: justify;
+    margin: 10px 0 25px 0;
+}
+.info{
+    max-width: 535px;
+    color: #7d7d82;
+    padding-left: 10px;
+}
+.left .info{
+    padding: 0 30px 0 0;
+    float: right;
+}
+.img-conf{
+    padding-right: 30px;
+}
+.right.img-conf{
+    float: right;
+    padding: 0px;
+    padding-left: 30px;
+}
+.right.img-conf img{
+    float: right;
+}
+.conference-modal {
+    font-family: "Lato Regular", Arial, sans-serif;
+    line-height: 1rem;
+    position: relative;
+    transition: opacity .3s ease;
+}
+
+.conference-modal span {
+    font-family: "Lato Regular", Arial, sans-serif;
+}
+
+.conference-modal img {
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.conference-modal p {
+    line-height: 14px;
+    margin: 5px 0px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    cursor: pointer;
+}
+
+.conference-modal:hover {
+    opacity: .8;
+}
+
+.conference-modal a {
+    color: #fcfcfc;
+}
+
+/* subtitulos! */
+.block-headline{
+    margin: 20px 0;
+    font-family: 'Lato Regular';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #aeabab;
+}
+/*=== Realizadores =======================*/
+.realizador-images {
+    text-align: center;
+    padding: 0px 0 50px 0;
+}
+
+.realizador-images img {
+    height: 80px;
+    margin: 20px;
+}
+
+/*=== Modal ===================*/
+/*
+-------------------------------------------------------
+    MODAL CONFIGS
+-------------------------------------------------------
+*/
+.modal-open .modal{
+    height: 110vh;
+    transform: translateY(-17%);
+    background-color: rgba(0, 0, 0, 0.68);
+}
+.modal-dialog{
+    width: auto;
+    max-width: 500px;
+}
+.modal-content{
+    color: #263238;
+    background-color: #fcfcfc;
+    border-radius: 0;
+}
+.modal-header{
+    border-bottom: none;
+    position: relative;
+}
+.modal-backdrop.in{
+    display: none;
+}
+.modal-title{
+    font-family: "Lato Regular", Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    margin-left: 70px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+.modal-title span {
+    display: block;
+    font-size: 1.3rem;
+    font-family: "Lato Regular", Arial, sans-serif;
+}
+.modal-picture{
+    max-width: 60px;
+    border-radius: 100%;
+}
+.modal-video{
+    background-color: rgba(0,0,0,.2);
+}
+
+
+/*=== palestrantes! ===*/
+.panelist .moda-title{
+    padding: 10px 45px 10px 0px;
+}
+.panelist .modal-body{
+    padding: 0px 40px 25px 85px;
+}
+
+.modal iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 95%;
+    height: 90%;
+}
+
+.modalVideo-item {
+    display: block;
+    margin-bottom: 10px;
+    color: #373a3c;
+}
+
+.modalVideo-item:hover {
+    text-decoration: none;
+}
+
+
+
+
+/*========================  responsivo ============================*/
+@media only screen and (max-width: 1199px){
+    .videoWrapper{
+        display: none;
+    }
+    .line{
+        padding: 30px 10px;
+    }
+    .desc-container{
+        padding: 0px 30px;
+    }
+    .info{
+        width: 460px;
+    }
+}
+@media only screen and (max-height: 899px){
+    .mapa{
+        width: 300px;
+    }
+}
+@media only screen and (max-height: 799px){
+    .line{
+        padding: 45px 35px;
+    }
+}
+@media only screen and (max-height: 699px){
+
+    /* home */ 
+    .title{
+        font-size: 105px;
+    }
+    .title span{
+        font-size: 37px;
+        margin-left: 5px;
+        margin-top: -38px;
+    }
+
+    /* sections */
+    .line{
+        padding: 30px 10px;
+    }
+    .the-title{
+        margin: 5px;
+        font-size: 28px;
+    }
+    .year{
+        font-size: 27px;
+    }
+    section article{
+        top: 50%;
+    }
+    .section-title{
+        padding-bottom: 5px;
+    }
+    .conference-title{
+        font-size: 24px;
+        line-height: 24px;
+    } 
+    .conference-description{
+        font-size: 12px;
+    }
+    .schedule-container{
+        margin-bottom: 100px;
+    }
+}

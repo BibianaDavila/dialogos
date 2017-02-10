@@ -1,0 +1,174 @@
+{
+	"conferences" : [
+		{
+			"id":"1",
+			"edition":"1", 
+			"type":"Conferência", 
+			"date":"Junho 07",
+			"title":"Economia da Cultura: Festas populares e indústria do entretenimento",
+			"description":"A conferência visa abordar a emergência da lógica e práticas típicas do campo da economia que têm garantido aos setores culturais mais tradicionais a condição de grandes mercados. A palestra abordará setores de manifestações culturais no sentido amplo, como festas populares e a história do desenvolvimento do mercado de televisão no Brasil.",
+			"panelists":[
+				{
+					"name":"Paulo Miguez",
+					"university":"Universidade Federal da Bahia",
+					"resume":"Doutor em Comunicação e Cultura Contemporânea (UFBA), Vice-Reitor da Universidade Federal da Bahia (2014-2018) e professor do Instituto de Humanidades, Artes e Ciências da UFBA e do Programa Multidisciplinar de Pós-Graduação em Cultura e Sociedade (UFBA).",
+					"picture":"pmiguez"
+				},
+				{
+					"name":"Fábio Sá Earp",
+					"university":"Universidade Federal do Rio de Janeiro",
+					"resume":"Economista e professor adjunto da UFRJ e ampla experiência na área de Economia do Entretenimento, sobretudo Economia da Cultura, do Turismo e do Esporte. Entre suas principais publicações está o livro Pão e Circo - Fronteiras e perspectivas da economia do entretenimento (2002).",
+					"picture":"fearp"
+				}
+			],
+			"youtube":[
+				{
+					"name":"Assista a gravação da conferência",
+					"link":"https://youtu.be/Zl-QFgEKrfs"
+				}
+			],
+			"facebook":"https://www.facebook.com/events/1751397558431586/",
+			"path":"M0 100 C 20 0 50 0 100 100 Z",
+			"color-1":"#e3a119",
+			"color-2":"#ffd845"
+		},
+		{
+			"id":"2",
+			"edition":"2", 
+			"type":"Conferência", 
+			"date":"Julho 27",
+			"title":"Economia colaborativa: criatividade e o futuro do trabalho",
+			"description":"No centro das mudanças empreendidas pela chamada “nova economia” estão a economia colaborativa, as tecnologias da informação e as novas formas de trabalho. Assim, a conferência debaterá as novas condições de produção e circulação de bens culturais e criativos na sociedade contemporânea a partir dos dispositivos digitais e em rede, compreendendo a centralidade assumida pelas tecnologias na superação de modelos assimétricos de difusão.",
+			"panelists":[
+				{
+					"name":"Glaucia Campregher",
+					"university":"Universidade Federal do Rio Grande do Sul",
+					"resume":"Professora do Departamento de Economia e Relações Internacionais da UFRGS, pesquisadora do Observatório de Economia Criativa (OBEC-UFRGS).",
+					"picture":"gcampregher"
+				},
+				{
+					"name":"Messias Bandeira",
+					"university":"Universidade Federal da Bahia",
+					"resume":"Doutor em Comunicação e Cultura Contemporâneas pela UFBA, professor adjunto do Instituto de Humanidades, Artes e Ciências (IHAC-UFBA) e coordenador do OBEC Bahia.",
+					"picture":"mbandeira"
+				}
+			],
+			"youtube":[
+				{
+					"name":"Assista a gravação da conferência",
+					"link":"https://www.youtube.com/watch?v=vnR1uj6NOXc"
+				}
+			],
+			"report":[
+				{
+					"name":"TRABALHO CRIATIVO EM FOCO | Mercado de trabalho da Economia Criativa e da Economia da Cultura",
+					"link":"https://www.ufrgs.br/cegov/files/pub_78.pdf"
+				}
+			],
+			"facebook":"https://www.facebook.com/events/1075936132495977/",
+			"path":"M0 0 C 50 100 80 100 100 0 Z",
+			"color-1":"#e3a119",
+			"color-2":"#ffd845"
+		},
+		{
+			"id":"3",
+			"edition":"3", 
+			"type":"Conferência", 
+			"date":"Agosto 08",
+			"title":"Políticas Culturais: Reflexões Contemporâneas",
+			"description":"Os conferencistas debaterão o contexto de políticas culturais e seus impactos sobre as realidades culturais locais a partir de um olhar das esferas pública e privada. A atividade apresentará discussões contemporâneas sobre a construção de políticas públicas de cultura a fim de traçar um panorama histórico do papel do Estado e da iniciativa privada nesse processo de diálogo com as questões da participação social, da cidadania e da diversidade cultural.",
+			"panelists":[
+				{
+					"name":"Lia Calabre",
+					"university":"Fundação Casa de Rui Barbosa",
+					"resume":"Presidente da Fundação Casa de Rui Barbosa, historiadora, mestre e doutora em História Social pela Universidade Federal Fluminense. Tem como principais áreas de estudos políticas culturais e história do rádio brasileiro.",
+					"picture":"lcalabre"
+				},
+				{
+					"name":"Francisco Marshall",
+					"university":"Universidade Federal do Rio Grande do Sul",
+					"resume":"Historiador e doutor em História Social pela Universidade de São Paulo. É professor associado da Universidade Federal do Rio Grande do Sul, atuando no Depto. e PPG História (IFCH) e no PPG Artes Visuais (IA). Marshall é fundador e curador cultural do StudioClio (POA).",
+					"picture":"fmarshall"
+				}
+			],
+			"youtube":[
+				{
+					"name":"Assista a gravação da conferência",
+					"link":"https://www.youtube.com/watch?v=xlxGlB_WH74"
+				}
+			],
+			"facebook":"",
+			"path":"M0 100 C40 0 60 0 100 100 Z",
+			"color-1":"#3c7c3c",
+			"color-2":"#50b858"
+		},
+		{
+			"id":"4",
+			"edition":"4", 
+			"type":"Conferência", 
+			"date":"Setembro 13",
+			"title":"Economia do audiovisual: uma visão do mercado a partir dos realizadores",
+			"description":"A conferência irá abordar os setores do cinema e da música a partir da visão dos realizadores. Os convidados apresentarão um panorama do setor musical e audiovisual no Brasil, bem como os principais entraves e vantagens para a produção cultural contemporânea.",
+			"panelists":[
+				{
+					"name":"Carlos Gerbase",
+					"university":"Pontifícia Universidade Católica do Rio Grande do Sul",
+					"resume":"Doutor em Comunicação Social pós-doutor em Cinema pela Universidade Paris III - Sorbonne Nouvelle (2010). É professor titular da PUCRS, diretor de cinema e dono da Prana Filmes produtora de audiovisual.",
+					"picture":"cgerbase"
+				},
+				{
+					"name":"Alfredo Bertini",
+					"university": "Secretaria do Audiovisual - SAv/MinC",
+					"resume": "Economista e diretor do Cine PE - Festival do Audiovisual. Atualmente é Secretário do Audiovisual (SAv/MinC).",
+					"picture":"abertini"
+				}
+			],
+			"youtube":[
+				{
+					"name":"Assista a gravação da conferência",
+					"link":"https://www.youtube.com/watch?v=nNV1VAj0B80"
+				}			
+			],
+			"facebook":"https://www.facebook.com/events/187974178274854/",
+			"path":"M0 0 C 40 100 60 100 100 0 Z",
+			"color-1":"#3c7c3c",
+			"color-2":"#50b858"
+		},
+		{
+			"id":"5",
+			"edition":"5", 
+			"type":"Conferência", 
+			"date":"Novembro 08",
+			"title":"Economia Criativa, Empreendedorismo e Novas Tecnologias Sociais",
+			"description":"A conferência visa debater a cultura contemporânea como um recurso que gera e atrai investimentos. Os convidados apresentarão um panorama do desenvolvimento econômico e social através da cultura, bem como as mediações tecnológicas hoje operantes nesses processos, menos de instrumentalidade e mais de performatividade.",
+			"panelists":[
+				{
+					"name":"Marcos André Carvalho",
+					"university":"Rio Criativo",
+					"resume":"Diretor da Incubadora Rio Criativo.",
+					"picture":"mcarvalho"
+				},
+				{
+					"name":"Paul Heritage",
+					"university":"Queen Mary University of London",
+					"resume": "Diretor artístico do People’s Palace Project e professor de drama e performance na Queen Mary University of London.",
+					"picture": "pheritage"
+				},
+				{
+					"name":"Leonardo Brant",
+					"university":"Brant Associados",
+					"resume": "Sócio-fundador da BRANT ASSOCIADOS, empresa de inteligência e estratégia para organizações culturais e negócios criativos. Diretor-associado da DEUSDARÁ FILMES, produtora independente especializada em documentários. ",
+					"picture": "lbrant"
+				}
+			],
+			"youtube":[
+			
+			],
+			"facebook":"",
+
+			"path":"M0 100 C 20 0 50 0 100 100 Z",
+			"color-1":"#fff",
+			"color-2":"#fff"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"title":"Diálogos",
+	"dialogos":"Diálogos<span> em Economia Criativa<span>",
+	"home":"Início",
+	"soon":"Em Breve",
+	"edition":"Edição 2016",
+	"about":"Sobre",
+	"dates":"Programação",
+	"hour":"sempre das 19h às 21h",
+	"registration":"Inscrições",
+	"certificates":"Certificados",
+	"place":"Local",
+	"conferences":"Conferências",
+	"seminar":"Seminário",
+	"conference":"Conferência",
+	"time":"Horários",
+	"speaker":"Palestrantes",
+	"report":"Boletim",
+	"organization":"Realização",
+	"seeMore":"Fique por dentro",
+	"description":[
+		{"paragraph":"A compreensão da cultura e da criatividade como motores do desenvolvimento econômico impulsionaram o crescimento da reflexão acerca da Economia Criativa e da Cultura. Nesse sentido, o projeto “Diálogos em Economia Criativa” promove diversas discussões debate desses temas, trazendo em cada edição especialistas nacionais e internacionais com o objetivo de contribuir para o desenvolvimento das agendas de pesquisa das áreas de Economia Criativa e da Cultura."},
+		{"paragraph":"Ao longo de 2017, o projeto entra em uma nova etapa, conciliando o fortalecimento da internacionalização, prioridade do <a href='http://ufrgs.br/obec'>OBEC</a> e da Universidade Federal do Rio Grande do Sul, com a reflexão sobre os seguintes temas contemporâneos:"}
+	],
+	"description-items":[	
+		{"items":"Valor Cultural e Valor Econômico da Cultura e da Arte;"},
+		{"items":"Digitalização: as transformações no processo produtivo e novas formas de consumo;"}
+	]
+}
