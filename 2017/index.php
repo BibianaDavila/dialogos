@@ -63,7 +63,6 @@
 
 	        <!--=== descrição ===-->
 	        <section id="description">
-
 				<article class="container">
 					<div class="row line">
 
