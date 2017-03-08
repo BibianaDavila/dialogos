@@ -42,9 +42,6 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
-		<script type="text/javascript" src="main.js"></script>
 	</head>
 	
 	<body>
@@ -68,6 +65,10 @@
 				</h1>
 			</article>
 		</section>
+
+		<script async type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script async type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script async type="text/javascript" src="main.js"></script>
 
 	</body>
 </html>
