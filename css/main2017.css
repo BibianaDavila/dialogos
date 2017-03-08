@@ -34,6 +34,17 @@ body {
 	margin: 0px;
     text-align: justify;
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: #FFF;
+    background: #555656;
+}
+
+::selection {
+    color: #FFF; 
+    background: #555656;
+}
+
 section{
     background: linear-gradient(#f1f2f3, #fff);
 }
