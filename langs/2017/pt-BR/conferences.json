@@ -14,12 +14,6 @@
 					"university":"Universidade Paris XIII",
 					"resume":"Professor de Economia na universidade Paris XIII e coordenador do LABEX ICCA (Indústrias Culturais e Criação Artística).",
 					"picture":"frmoreau"
-				},
-				{
-					"name":"Mansur Bassit",
-					"university":"Ministério da Cultura",
-					"resume":"Secretário de Economia da Cultura do MINC",
-					"picture":"mbassit"
 				}
 			]
 		},
@@ -27,11 +21,23 @@
 			"id":"2",
 			"edition":"2", 
 			"type":"Conferência", 
-			"date-day":"11",
+			"date-day":"26-27",
 			"date-month":"Julho",
 			"title":"Valor Cultural e <br/>Valor Econômico da Cultura ",
 			"description":"A análise do impacto econômico da cultura implica em esforços qualitativos e quantitativos para compreender quais esferas da sociedade são afetadas, subsidiando, assim, políticas públicas culturais. A conferência irá abordar os conceitos de valor cultural e refletir acerca da importância econômica da cultura, bem como discutir os limites e as possibilidades das teorias de valoração econômica quando aplicadas ao setor cultural.  ",
 			"panelists":[
+				{
+					"name":"Geoffrey Crossick",
+					"university":"London University",
+					"resume":"Professor de Humanidades na Ecola de Estudos Avançados, London University. Diretor do AHRC Cultural Value Project.",
+					"picture":"gcrossick"
+				},
+				{
+					"name":"Andy Pratt",
+					"university":"City University de Londres",
+					"resume":"Professor de Economia da Cultura no Centro de Cultura e Indústrias Criativas da City University de Londres.",
+					"picture":"apratt"
+				}
 			]
 		}
 	]

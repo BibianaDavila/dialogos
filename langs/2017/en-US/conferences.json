@@ -14,12 +14,6 @@
 					"university":"Paris XIII, LABEX",
 					"resume":"-",
 					"picture":"frmoreau"
-				},
-				{
-					"name":"Mansur Bassit",
-					"university":"MINC, Secretary of Economy of Culture",
-					"resume":"-",
-					"picture":"mbassit"
 				}
 			]
 		},
@@ -27,12 +21,23 @@
 			"id":"2",
 			"edition":"2", 
 			"type":"conference", 
-			"date-day":"11",
+			"date-day":"26-27",
 			"date-month":"JULY",
 			"title":"Cultural Value and <br/>Culture Economic Value ",
 			"description":"The evaluation of culture economic impact implies qualiative and quantitative efforts to understand how society is affected, subsidizing cultural public policy. This conference is going to debate the concepts of cultural value and the economic relevance of culture, presenting limits and possibilities from theories of economic valuation when applied to cultural industries. ",
 			"panelists":[
-				
+				{
+					"name":"Geoffrey Crossick",
+					"university":"London University",
+					"resume":"-",
+					"picture":"gcrossick"
+				},
+				{
+					"name":"Andy Pratt",
+					"university":"City University London",
+					"resume":"-",
+					"picture":"apratt"
+				}
 			]
 		}
 	]
