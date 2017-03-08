@@ -258,6 +258,11 @@ a{
 .schedule-date.day{
     font-size: 70px;
 }
+.right .schedule-date.day{
+    line-height: 100px;
+    word-spacing: -15px;
+    font-size: 50px;
+}
 .schedule-date.month{
     font-size: 20px;
     font-weight: bold;
@@ -280,6 +285,9 @@ a{
     bottom: 0px;
     padding-left: 95px;
 }
+.right .schedule-content{
+    padding-left: 150px;
+}
 .schedule-conference {
     font-size: 1.2rem;
     position: absolute;
@@ -294,6 +302,10 @@ a{
     margin-bottom: 20px;
 }
 /*=== Conferências ==================*/
+.img-conf .img-fluid{
+    width: 100%;
+    margin-top:5px
+}
 /* titulo da conferência!!! */
 .conference-title{
     text-align: left;

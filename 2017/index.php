@@ -63,6 +63,7 @@
 
 	        <!--=== descrição ===-->
 	        <section id="description">
+
 				<article class="container">
 					<div class="row line">
 
@@ -134,7 +135,7 @@
 									<div class="schedule-block">
 
 										<!-- data -->
-										<div class="col-xs-2 schedule-date-container">
+										<div class="col-xs-6 schedule-date-container">
 											<div class="schedule-date day"><?php echo $b['date-day'];?></div>
 											<div class="schedule-date month"><?php echo $b['date-month'];?></div>
 										</div>
@@ -235,15 +236,16 @@
 
 								<!-- imagem -->
 								<div class="col-sm-6 no-border img-conf <?php if( $value['id']%2==0 ) echo right; ?>">
+									
 									<!-- data -->
 									<div class="conf-date">
-										<div class="col-xs-2 schedule-date-container">
+										<div class="col-xs-12 schedule-date-container">
 											<div class="schedule-date day"><?php echo $value['date-day'];?></div>
 											<div class="schedule-date month"><?php echo $value['date-month'];?></div>
 										</div>
 									</div>
 
-									<img class="img-fluid" style="width:100%; margin-top:5px" src="../image/2017/<?php echo $value['id'];?>.png">
+									<img class="img-fluid" src="../image/2017/<?php echo $value['id'];?>.png">
 								</div>
 
 								<!-- texto -->
@@ -405,14 +407,12 @@
 				</article>
 			</section>
 
-
-		    
 		</div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-		<script type="text/javascript" src="js/onepagescroll/jquery.onepage-scroll.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/bootstrap.js"></script>
+		<script async type="text/javascript" src="js/onepagescroll/jquery.onepage-scroll.js"></script>
+        <script async src="js/main.js"></script>
+        <script async src="js/bootstrap.min.js"></script>
+
     </body>
 </html>
