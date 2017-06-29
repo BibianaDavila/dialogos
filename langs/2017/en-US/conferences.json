@@ -3,7 +3,8 @@
 		{
 			"id":"1",
 			"edition":"1", 
-			"type":"conference", 
+			"type":"Conference", 
+			"type-flag":"1", 
 			"date-day":"21",
 			"date-month":"MARCH",
 			"title":"Digitization: <br/>impacts on production and consumption",
@@ -26,7 +27,8 @@
 		{
 			"id":"2",
 			"edition":"2", 
-			"type":"conference", 
+			"type":"Conference", 
+			"type-flag":"1", 
 			"date-day":"26",
 			"date-month":"JULY",
 			"title":"Creative Economy and Public Policy: institutional experiences",
@@ -61,7 +63,8 @@
 		{
 			"id":"3",
 			"edition":"3", 
-			"type":"conference", 
+			"type":"Conference", 
+			"type-flag":"1", 
 			"date-day":"27",
 			"date-month":"JULY",
 			"title":"Cultural Value and <br/>Culture Economic Value ",
@@ -70,20 +73,98 @@
 				{
 					"name":"Geoffrey Crossick",
 					"university":"London University",
-					"resume":"-",
+					"resume":"Crossick is Professor of Humanities at the School of Advanced Study, a postgraduate school of the University of London. He was Vice-Chancellor of London University from 2010 to 2012. In addition, he was Chief Executive of the Arts and Humanities Research Board from 2002 to 2005 and Warden of Goldsmiths College (now Goldsmiths, University of London) from 2005 to 2010.",
 					"picture":"gcrossick"
 				},
 				{
 					"name":"Andy Pratt",
 					"university":"City University de Londres",
-					"resume":"-",
+					"resume":"Pratt is an internationally acclaimed expert on the topic of the cultural industries. He is a Fellow of the Royal Society of Arts, a Fellow of the Royal Geographical Society, and an Academician of the Academy of Social Sciences. He has held academic appointments at University College London (Bartlett School of Planning) and LSE (Geography, and Urban Research Centre), King’s College, London (Culture, Media and Creative Industries). He joined City University as Professor of Cultural Economy in 2013. Andy has worked as a consultant or advisor for national and urban policy makers, and the EU, UNESCO, UNCTAD, and WIPO, and the British Council.",
 					"picture":"apratt"
 				},
 				{
 					"name":"Paul Heritage",
 					"university":"Queen Mary University of London",
-					"resume": "-",
+					"resume": "Heritage is professor of Drama and Performance and Director of People’s Palace Projects, a School of English and Drama research centre and national portfolio organization of Arts Council England.  Since 1991, he has been creating arts and culture projects between the UK and Brazil, including 15 years of performance-based human rights projects with prisoners, guards and their families from São Paulo through to the Amazon region.",
 					"picture": "pheritage1"
+				}
+			]
+		},
+		{
+			"id":"4",
+			"edition":"1", 
+			"type":"Short Course", 
+			"type-flag":"2", 
+			"date-day":"26",
+			"date-month":"JULY",
+			"title":"Os dispêndios públicos e a economia da cultura no Brasil",
+			"description":"<b>Time:</b> 4h30min PM – 6h PM",
+			"panelists":[
+				{
+					"name":"Frederico Barbosa",
+					"university":"Institute of Planning and Research (Ipea)",
+					"resume":"Barbosa holds a PhD in Sociology from the University of Brasília (UnB) and a undergraduate degree in Anthropology from the same university. He has been a researcher at the Institute of Planning and Research (Ipea) since 1997. Professor of the Professional Master in Development and Public Policy promoted by Ipea in partnership with the National School of Public Health (ENSP / Fiocruz) and the School of Government in Health of the Federal Nucleus (Fiocruz) as well as Professor in Public Policies and Development of IPEA. Moreover, he coordinated several researches and evaluations on cultural economy and public cultural policies.",
+					"picture":"fbarbosa"
+				},
+				{
+					"name":"Víctor Toscano",
+					"university":"Jones Institute",
+					"resume":"",
+					"picture":"vtoscano"
+				},
+				{
+					"name":"Marcelo Milan",
+					"university":"Federal University of Rio Grande do Sul",
+					"resume":"",
+					"picture":"mmilan"
+				}
+			]
+		},
+		{
+			"id":"5",
+			"edition":"2", 
+			"type":"Short Course", 
+			"type-flag":"2", 
+			"date-day":"27",
+			"date-month":"JULY",
+			"title":"Short Course",
+			"description":"<b>Time:</b> 10h AM – 12h AM",
+			"panelists":[
+				{
+					"name":"Geoffrey Crossick",
+					"university":"London University",
+					"resume":"Crossick is Professor of Humanities at the School of Advanced Study, a postgraduate school of the University of London. He was Vice-Chancellor of London University from 2010 to 2012. In addition, he was Chief Executive of the Arts and Humanities Research Board from 2002 to 2005 and Warden of Goldsmiths College (now Goldsmiths, University of London) from 2005 to 2010.",
+					"picture":"gcrossick2"
+				},
+				{
+					"name":"Andy Pratt",
+					"university":"City University de Londres",
+					"resume":"Pratt is an internationally acclaimed expert on the topic of the cultural industries. He is a Fellow of the Royal Society of Arts, a Fellow of the Royal Geographical Society, and an Academician of the Academy of Social Sciences. He has held academic appointments at University College London (Bartlett School of Planning) and LSE (Geography, and Urban Research Centre), King’s College, London (Culture, Media and Creative Industries). He joined City University as Professor of Cultural Economy in 2013. Andy has worked as a consultant or advisor for national and urban policy makers, and the EU, UNESCO, UNCTAD, and WIPO, and the British Council.",
+					"picture":"apratt2"
+				}
+			]
+		},
+		{
+			"id":"6",
+			"edition":"3", 
+			"type":"Short Course", 
+			"type-flag":"2", 
+			"date-day":"27",
+			"date-month":"JULY",
+			"title":"Short Course",
+			"description":"<b>Horário:</b> 3h PM – 5h PM",
+			"panelists":[
+				{
+					"name":"Rossalind Gill",
+					"university":"University of London",
+					"resume":"Gill is professor at University of London since October 2013. She studied Sociology and Psychology at Exeter University, and completed her PhD in Social Psychology at the Discourse and Rhetoric Group (DARG), Loughborough University in 1991. With an interdisciplinary background, she has worked across a number of disciplines including Sociology, Gender Studies and Media and Communications. Her career has included posts at Goldsmiths and King's College London, and she worked for ten years in the LSE's interdisciplinary Gender Institute. ",
+					"picture":"rgill"
+				},
+				{
+					"name":"Paul Heritage",
+					"university":"Queen Mary University of London",
+					"resume": "Heritage is professor of Drama and Performance and Director of People’s Palace Projects, a School of English and Drama research centre and national portfolio organization of Arts Council England.  Since 1991, he has been creating arts and culture projects between the UK and Brazil, including 15 years of performance-based human rights projects with prisoners, guards and their families from São Paulo through to the Amazon region.",
+					"picture": "pheritage2"
 				}
 			]
 		}

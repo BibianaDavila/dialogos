@@ -3,7 +3,8 @@
 		{
 			"id":"1",
 			"edition":"1", 
-			"type":"Conferência", 
+			"type":"Conferência",
+			"type-flag":"1", 
 			"date-day":"21",
 			"date-month":"MARÇO",
 			"title":"Digitalização: <br/>impactos sobre produção e consumo",
@@ -27,6 +28,7 @@
 			"id":"2",
 			"edition":"2", 
 			"type":"Conferência", 
+			"type-flag":"1", 
 			"date-day":"26",
 			"date-month":"Julho",
 			"title":"Economia Criativa e Política Pública: experiências institucionais",
@@ -62,6 +64,7 @@
 			"id":"3",
 			"edition":"3", 
 			"type":"Conferência", 
+			"type-flag":"1", 
 			"date-day":"27",
 			"date-month":"Julho",
 			"title":"Valor Cultural e <br/>Valor Econômico da Cultura ",
@@ -70,20 +73,98 @@
 				{
 					"name":"Geoffrey Crossick",
 					"university":"London University",
-					"resume":"Professor de Humanidades na Ecola de Estudos Avançados, London University. Diretor do AHRC Cultural Value Project.",
+					"resume":"É Professor de Humanidades na School of Advanced Study, escola de pós-graduação da University of London. Foi vice-reitor da London University de 2010 a 2012 e diretor da Goldsmiths College de 2005 a 2010. ",
 					"picture":"gcrossick"
 				},
 				{
 					"name":"Andy Pratt",
 					"university":"City University de Londres",
-					"resume":"Professor de Economia da Cultura no Centro de Cultura e Indústrias Criativas da City University de Londres.",
+					"resume":"É especialista internacional em Indústrias Culturais. Professor de Economia da Cultura  na City University of London, também é membro da Royal Society of Arts e da Royal Geographical Society, além de acadêmico da Academy of Social Sciences. Andy é professor convidado da University College of London, London School of Economics, King’s College. Ainda, trabalhou como consultor para construção de políticas nacionais e urbanas na União Europeia, na UNESCO, na UNCTAD na OMS e no British Council. ",
 					"picture":"apratt"
 				},
 				{
 					"name":"Paul Heritage",
 					"university":"Queen Mary University of London",
-					"resume": "Diretor artístico do People’s Palace Project e professor de drama e performance na Queen Mary University of London.",
+					"resume": "É Professor de Teatro e Performance na Queen Mary University e diretor do People’s Palace Projects. Desde 1991, cria projetos artísticos e culturais entre o Brasil e o Reino Unido, o que inclui 15 anos de desenvolvimento de projetos a favor do Direitos Humanos. ",
 					"picture": "pheritage1"
+				}
+			]
+		},
+		{
+			"id":"4",
+			"edition":"1", 
+			"type":"Minicurso", 
+			"type-flag":"2", 
+			"date-day":"26",
+			"date-month":"Julho",
+			"title":"Os dispêndios públicos e a economia da cultura no Brasil",
+			"description":"<b>Horário:</b> 16h30min – 18h",
+			"panelists":[
+				{
+					"name":"Frederico Barbosa",
+					"university":"Instituto de Planejamento e Pesquisa (Ipea)",
+					"resume":"É doutor em Sociologia pela Universidade de Brasília (UnB) e graduado em Antropologia pela mesma universidade, sendo pesquisador do Instituto de Planejamento e Pesquisa (Ipea) desde 1997. Professor do Mestrado Profissional em Desenvolvimento e Políticas Públicas promovido pelo Ipea, em parceria com a Escola Nacional de Saúde Pública (ENSP/Fiocruz) e a Escola de Governo em Saúde Núcleo Federal (Fiocruz); Professor permanente do Mestrado Profissional em Políticas Públicas e Desenvolvimento do IPEA; e Professor colaborador dos cursos de especialização e formação para carreiras da ENAP. Coordenou diversas pesquisas e avaliações sobre a economia da cultura e políticas públicas culturais.",
+					"picture":"fbarbosa"
+				},
+				{
+					"name":"Víctor Toscano",
+					"university":"Instituto Jones",
+					"resume":"",
+					"picture":"vtoscano"
+				},
+				{
+					"name":"Marcelo Milan",
+					"university":"Universidade Federal do Rio Grande do Sul",
+					"resume":"",
+					"picture":"mmilan"
+				}
+			]
+		},
+		{
+			"id":"5",
+			"edition":"2", 
+			"type":"Minicurso", 
+			"type-flag":"2", 
+			"date-day":"27",
+			"date-month":"Julho",
+			"title":"Minicurso",
+			"description":"<b>Horário:</b> 10h – 12h",
+			"panelists":[
+				{
+					"name":"Geoffrey Crossick",
+					"university":"London University",
+					"resume":"É Professor de Humanidades na School of Advanced Study, escola de pós-graduação da University of London. Foi vice-reitor da London University de 2010 a 2012 e diretor da Goldsmiths College de 2005 a 2010. ",
+					"picture":"gcrossick2"
+				},
+				{
+					"name":"Andy Pratt",
+					"university":"City University de Londres",
+					"resume":"É especialista internacional em Indústrias Culturais. Professor de Economia da Cultura  na City University of London, também é membro da Royal Society of Arts e da Royal Geographical Society, além de acadêmico da Academy of Social Sciences. Andy é professor convidado da University College of London, London School of Economics, King’s College. Ainda, trabalhou como consultor para construção de políticas nacionais e urbanas na União Europeia, na UNESCO, na UNCTAD na OMS e no British Council. ",
+					"picture":"apratt2"
+				}
+			]
+		},
+		{
+			"id":"6",
+			"edition":"3", 
+			"type":"Minicurso", 
+			"type-flag":"2", 
+			"date-day":"27",
+			"date-month":"Julho",
+			"title":"Minicurso",
+			"description":"<b>Horário:</b> 15h – 17h",
+			"panelists":[
+				{
+					"name":"Rossalind Gill",
+					"university":"University of London",
+					"resume":"É professora na University of London desde 2013. Estudou Sociologia e Psicologia na Exeter University e concluiu seu doutorado em Psicologia Social no grupo de discurso e retórica pela Loughborough University em 1991. Com um conhecimento interdisciplinar, trabalhou com uma variedade de disciplinas, incluindo sociologia, estudos de gêneros e mídia e comunicações. Sua carreira inclui trabalhos na Goldsmiths e no King’s College London, além de ter trabalhado por dez anos no Instituto Interdisciplinar de Gênero da LSE.",
+					"picture":"rgill"
+				},
+				{
+					"name":"Paul Heritage",
+					"university":"Queen Mary University of London",
+					"resume": "É Professor de Teatro e Performance na Queen Mary University e diretor do People’s Palace Projects. Desde 1991, cria projetos artísticos e culturais entre o Brasil e o Reino Unido, o que inclui 15 anos de desenvolvimento de projetos a favor do Direitos Humanos. ",
+					"picture": "pheritage2"
 				}
 			]
 		}
