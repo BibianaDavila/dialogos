@@ -139,16 +139,20 @@
 								<div class="col-sm-4">
 									<div class="schedule-block">
 
-										<!-- data -->
-										<div class="col-xs-6 schedule-date-container">
-											<div class="schedule-date day"><?php echo $b['date-day'];?></div>
-											<div class="schedule-date month"><?php echo $b['date-month'];?></div>
-										</div>
+										<a class="onepage-pagination-link link" data-index="<?php echo $b['id']+4;?>" href="#<?php echo $b['id']+4;?>">
 
-										<!-- descrição -->
-										<div class="col-xs-10 schedule-content">
-											<p class="date-title text-left"><?php echo $b['title'];?></p>
-										</div>
+											<!-- data -->
+											<div class="col-xs-6 schedule-date-container">
+												<div class="schedule-date day"><?php echo $b['date-day'];?></div>
+												<div class="schedule-date month"><?php echo $b['date-month'];?></div>
+											</div>
+
+											<!-- descrição -->
+											<div class="col-xs-10 schedule-content">
+												<p class="date-title text-left"><?php echo $b['title'];?></p>
+											</div>
+										
+										</a>
 
 									</div>
 								</div>
