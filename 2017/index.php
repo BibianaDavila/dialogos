@@ -41,13 +41,13 @@
     </head>
     <body class="loading">
 
-    	<div class="loader"><img src="../image/icones/loader.gif"></div>
+    	<div class="loader"><img src="../image/icones/loader.gif" alt="Carregando..."></div>
 
        	<div class="main">
        		
        		<!-- idioma -->
 			<div class="dropdown">
-				<img src="../image/icones/icon_lang.png" class="dropdown-toggle world-img" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<img src="../image/icones/icon_lang.png" class="dropdown-toggle world-img" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" alt="Idioma">
 				<ul class="dropdown-menu lang-dropdown" aria-labelledby="dropdownMenu1">
 				    <li><a class="dropdown-item" href="?language=en">English</a></li>
 				    <li><a class="dropdown-item" href="?language=pt">Português</a></li>
@@ -70,7 +70,7 @@
 						<!-- vídeo dialogos -->
 						<div class="col-lg-6">
 							<div class="videoWrapper">
-								<iframe width="100%" height="290" src="https://www.youtube.com/embed/H-BN6NdeZHY" frameborder="0" allowfullscreen></iframe>
+								<iframe height="290" src="https://www.youtube.com/embed/H-BN6NdeZHY" allowfullscreen></iframe>
 							</div>
 						</div>
 
@@ -97,9 +97,15 @@
 						</div>
 					</div>
 					<div class="row text-center">
-						<a href="https://www.facebook.com/obec.rs/" title="Facebook" target="_blank"><img src="../image/icones/facebook_pb.png" class="img-icon"></a>
-						<a href="https://twitter.com/OBEC_RS" title="Twitter" target="_blank"><img src="../image/icones/twitter.png" class="img-icon"></a>
-						<a href="https://www.instagram.com/obec.ufrgs/" title="Instagram" target="_blank"><img src="../image/icones/instagram.png" class="img-icon"></a>
+						<a href="https://www.facebook.com/obec.rs/" title="Facebook" target="_blank">
+							<img src="../image/icones/facebook_pb.png" alt="Facebook" class="img-icon">
+						</a>
+						<a href="https://twitter.com/OBEC_RS" title="Twitter" target="_blank">
+							<img src="../image/icones/twitter.png" alt="Twitter" class="img-icon">
+						</a>
+						<a href="https://www.instagram.com/obec.ufrgs/" title="Instagram" target="_blank">
+							<img src="../image/icones/instagram.png" alt="Instagram" class="img-icon">
+						</a>
 					</div>
 				</article>
 
@@ -128,10 +134,9 @@
 					</div>
 					
 					<div class="row schedule-container">
-						<div class="col-sm-6">
-
-							<?php foreach ($conferences as $key => $val) :?>
-								<?php foreach ($val as $a => $b) :?>
+						<?php foreach ($conferences as $key => $val) :?>
+							<?php foreach ($val as $a => $b) :?>
+								<div class="col-sm-4">
 									<div class="schedule-block">
 
 										<!-- data -->
@@ -142,28 +147,22 @@
 
 										<!-- descrição -->
 										<div class="col-xs-10 schedule-content">
-											<p class="date-title"><?php echo $b['title'];?></p>
+											<p class="date-title text-left"><?php echo $b['title'];?></p>
 										</div>
 
 									</div>
-									<?php if($a == 0) echo '</div><div class="col-sm-6 right">'; ?>
-								<?php endforeach;?>
+								</div>
 							<?php endforeach;?>
-							
-						</div>
+						<?php endforeach;?>
 					</div>
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 text-center">
 							
 							<!-- certificados -->
-							<a href="https://www1.ufrgs.br/extensao/portal/index.php" class="link-buttons">
-								<button class="button button-custom"><?php echo $general['certificates']?></button>
-							</a>
+							<a href="https://www1.ufrgs.br/extensao/portal/index.php" class="button"><?php echo $general['certificates']?></a>
 
 							<!-- inscrições -->
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdnOTqEqJT1VXKBtYXqA6VvX2oWgVIwqwn8j5R-onkQT2fKzw/viewform" class="link-buttons">
-								<button class="button button-custom"><?php echo $general['registration']?></button>
-							</a>					
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdnOTqEqJT1VXKBtYXqA6VvX2oWgVIwqwn8j5R-onkQT2fKzw/viewform" class="button"><?php echo $general['registration']?></a>					
 
 						</div>
 					</div>
@@ -197,7 +196,7 @@
 
 							<!-- link mapa -->
 							<a href="https://www.google.com.br/maps/@-30.0337546,-51.2191368,19.25z">
-								<img class="mapa img-fluid" src="../image/mapa.png">
+								<img class="mapa img-fluid" src="../image/mapa.png" alt="Localização Mapa">
 							</a>
 							
 							<!-- endereço -->
@@ -236,7 +235,6 @@
 
 								<!-- imagem -->
 								<div class="col-sm-6 no-border img-conf <?php if( $value['id']%2==0 ) echo right; ?>">
-									
 									<!-- data -->
 									<div class="conf-date">
 										<div class="col-xs-12 schedule-date-container">
@@ -245,7 +243,7 @@
 										</div>
 									</div>
 
-									<img class="img-fluid" src="../image/2017/<?php echo $value['id'];?>.png">
+									<img class="img-fluid" src="../image/2017/<?php echo $value['id'];?>.png" alt="Imagem conferência">
 								</div>
 
 								<!-- texto -->
@@ -267,7 +265,7 @@
 											<div class="conference-modal" data-toggle="modal" data-target="<?php echo '#modal' . $panelist['picture']?>">
 												
 												<!-- imagem palestrante -->
-												<img src="<?php echo '../image/profiles/' . $panelist['picture'] . '.png';?>">
+												<img src="<?php echo '../image/profiles/' . $panelist['picture'] . '.png';?>" alt="Palestrante">
 												
 												<!-- nome + uni palestrante -->
 												<p><?php echo $panelist['name'];?><br/><?php echo $panelist['university'];?></p>
@@ -275,7 +273,7 @@
 											</div>
 											
 											<!-- modal palestrante -->
-											<div class="modal fade panelist" id="<?php echo 'modal' . $panelist['picture']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+											<div class="modal  <?php if( $value['id']%2==0 ) echo 'left-modal'; ?> fade panelist" id="<?php echo 'modal' . $panelist['picture']?>" tabindex="-1" role="dialog" aria-labelledby="profile-<?php echo $panelist['picture']?>" aria-hidden="true">
 												<div class="modal-dialog" role="document">
 													<div class="modal-content">
 
@@ -288,10 +286,10 @@
 															</button>
 
 															<!-- imagem -->
-															<img class="modal-picture" src="<?php echo '../image/profiles/' . $panelist['picture'] . '.png';?>">
+															<img class="modal-picture" src="<?php echo '../image/profiles/' . $panelist['picture'] . '.png';?>" alt="Palestrante">
 															
 															<!-- nome -->
-															<h4 class="modal-title" id="myModalLabel"><?php echo $panelist['name'];?><span><?php echo $panelist['university'];?></span></h4>
+															<h4 class="modal-title" id="profile-<?php echo $panelist['picture']?>"><?php echo $panelist['name'];?><span><?php echo $panelist['university'];?></span></h4>
 														</div>
 														
 														<!-- conteúdo ::: bio -->
@@ -320,20 +318,20 @@
 										<!-- youtube! -->
 										<?php if ($value['youtube'] != NULL):?>
 											<a href="<?php echo $d['link']?>" class="link-buttons" data-toggle="modal" data-target="#youtube<?php echo $value['id']?>">
-												<img class="video-icon" src="../image/icones/play.png">
+												<img class="video-icon" src="../image/icones/play.png" alt="Vídeo">
 											</a>
 										<?php endif;?>
 										
 										<!-- facebook! -->
 										<?php if ($value['facebook'] != NULL):?>
 											<a href="<?php echo $value['facebook']?>" class="link-buttons" target="_blanck">
-												<img class="video-icon" src="../image/icones/facebook.png">
+												<img class="video-icon" src="../image/icones/facebook.png" alt="Facebook">
 											</a>
 										<?php endif;?>
 
 
 										<!--=== modal video do youtube ===-->
-										<div class="modal fade" id="youtube<?php echo $value['id']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal fade" id="youtube<?php echo $value['id']?>" tabindex="-1" role="dialog" aria-labelledby="video-<?php echo $value['id']?>" aria-hidden="true">
 											<div class="modal-dialog" role="document">
 												<div class="modal-content">
 													
@@ -346,10 +344,10 @@
 														</button>
 														
 														<!-- ícone vídeo -->
-														<img class="modal-picture modal-video" src="../image/icones/video_2x.png">
+														<img class="modal-picture modal-video" src="../image/icones/video_2x.png" alt="Vídeo">
 														
 														<!-- titulo -->
-														<h4 class="modal-title" id="myModalLabel">Video</h4>
+														<h4 class="modal-title" id="video-<?php echo $value['id']?>">Video</h4>
 													
 													</div>
 													
@@ -395,24 +393,22 @@
 
 						<!--=== logos realizadores! ===-->
 						<div class="realizador-images">
-							<img src="../image/realizadores/ufrgs.png">
-							<img src="../image/realizadores/cegov.png">
-							<img src="../image/realizadores/neccult.png">
-							<img src="../image/realizadores/obec.png" id="obec">							
-							<img src="../image/realizadores/catavento.png">							
+							<img src="../image/realizadores/ufrgs.png" alt="UFRGS">
+							<img src="../image/realizadores/cegov.png" alt="CEGOV">
+							<img src="../image/realizadores/neccult.png" alt="NECCULT">
+							<img src="../image/realizadores/obec.png" id="obec" alt="OBEC">							
+							<img src="../image/realizadores/catavento.png" alt="Catavento">							
 							<br/>
-							<img src="../image/realizadores/brasil.png">							
+							<img src="../image/realizadores/brasil.png" alt="MinC">							
 						</div>				
 					</div>
 				</article>
 			</section>
-
 		</div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script async type="text/javascript" src="js/onepagescroll/jquery.onepage-scroll.js"></script>
-        <script async src="js/main.js"></script>
+		<script type="text/javascript" src="js/onepagescroll/jquery.onepage-scroll.js"></script>
+        <script src="js/main.js"></script>
         <script async src="js/bootstrap.min.js"></script>
-
     </body>
 </html>

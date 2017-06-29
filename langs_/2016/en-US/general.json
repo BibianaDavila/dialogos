@@ -1,0 +1,30 @@
+{
+	"title":"Diálogos",
+	"dialogos":"Dialogues<span> on Creative Economy<span>",
+	"home":"Home",
+	"soon":"Coming soon",
+	"edition":"2016 Edition",
+	"about":"About",
+	"dates":"Dates",
+	"hour":"always between 7pm and 9pm",
+	"registration":"Registration",
+	"certificates":"Certificates",
+	"place":"Place",
+	"seminar":"Seminar",
+	"conferences":"Conferences",
+	"conference":"Conference",
+	"time":"Time",
+	"speaker":"Panelist",
+	"report":"Report",
+	"organization":"Organization",
+	"seeMore":"See more",
+	"description":[
+		{"paragraph":"Given the demand for broadening the debate in the area of Creative and Cultural Economy, the “Dialogues on Creative Economy” project aims to act on the promotion of a qualified space of discussion with national and international researches on this area."},
+		{"paragraph":"The purpose of this project is to make 7 conferences during the academic year of UFRGS, in order to discuss three central axes in the contemporary discussion on Creative Economy:"}
+	],
+	"description-items":[	
+		{"items":"International flow and globalization of creative goods;"},
+		{"items":"New perspectives for traditional cultural markets;"},
+		{"items":"Public and private administration for the fostering of Cultural Economy"}
+	]
+}

@@ -41,7 +41,9 @@ body {
 	color: inherit;
 	opacity: .8;
 }
-
+.link:hover span{
+	opacity: .8;
+}
 .link-report{
 	font-family: "AllerLt";
 	font-size: 16px;

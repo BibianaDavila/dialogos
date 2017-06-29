@@ -22,6 +22,9 @@ body{
 	color: inherit;
 	opacity: .8;
 }
+.link:hover span{
+	opacity: .8;
+}
 /*=== Idioma  ===========================*/
 .world-img {
 	position: absolute;

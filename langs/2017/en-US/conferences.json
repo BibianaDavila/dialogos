@@ -14,6 +14,12 @@
 					"university":"Paris XIII, LABEX",
 					"resume":"-",
 					"picture":"frmoreau"
+				},
+				{
+					"name":"Ana Letícia Fialho",
+					"university":"Ministry of Culture",
+					"resume":"Director of Productive Strategy of the Secretary of Economy of Culture",
+					"picture":"afialho"
 				}
 			]
 		},
@@ -21,7 +27,48 @@
 			"id":"2",
 			"edition":"2", 
 			"type":"conference", 
-			"date-day":"26-27",
+			"date-day":"26",
+			"date-month":"JULY",
+			"title":"Creative Economy and Public Policy: institutional experiences",
+			"description":"According to UNCTAD’s Creative Report (2010), the Creative Economy is one of the fastest growing sectors of the world economy, not only in terms of income generation, but also in terms of job creation and exports revenue. The Creative Economy has been seen as an fast alternative strategy for countries to promote their economic growth and development, especially after the success of the British experience. As a consequence, the debate about Creative Economy has improved in the public sphere, generating public policies aimed at the promotion of cultural and creative activities. Thus, the Dialogues conference will promote the debate about the local experiences in Argentina and Brazil on the public initiatives in the promotion of the creative activities and their impacts.",
+			"panelists":[
+				{
+					"name":"Andrés Gribnicow",
+					"university":"Ministry of Culture of Argentina",
+					"resume":"Undersecretary of Creative Economy of Argentina",
+					"picture":"agribnicow"
+				},
+				{
+					"name":"Mora Scillamá",
+					"university":"Ministry of Culture of Argentina",
+					"resume":"National Director of Creative Industries of Argentina",
+					"picture":"mscillama"
+				},
+				{
+					"name":"Martin Dowle",
+					"university":"British Council",
+					"resume":"Director of the British Council of Rio de Janeiro",
+					"picture":"mdowle"
+				},
+				{
+					"name":"Mansur Bassit",
+					"university":"Ministry of Culture of Brazil",
+					"resume":"Secretary of Economy of Culture",
+					"picture":"mbassit"
+				},
+				{
+					"name":"Ana Letícia Fialho",
+					"university":"Ministry of Culture",
+					"resume":"Director of Productive Strategy of the Secretary of Economy of Culture",
+					"picture":"afialho2"
+				}
+			]
+		},
+		{
+			"id":"3",
+			"edition":"3", 
+			"type":"conference", 
+			"date-day":"27",
 			"date-month":"JULY",
 			"title":"Cultural Value and <br/>Culture Economic Value ",
 			"description":"The evaluation of culture economic impact implies qualiative and quantitative efforts to understand how society is affected, subsidizing cultural public policy. This conference is going to debate the concepts of cultural value and the economic relevance of culture, presenting limits and possibilities from theories of economic valuation when applied to cultural industries. ",
@@ -34,9 +81,15 @@
 				},
 				{
 					"name":"Andy Pratt",
-					"university":"City University London",
+					"university":"City University de Londres",
 					"resume":"-",
 					"picture":"apratt"
+				},
+				{
+					"name":"Paul Heritage",
+					"university":"Queen Mary University of London",
+					"resume": "-",
+					"picture": "pheritage1"
 				}
 			]
 		}

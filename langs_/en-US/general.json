@@ -1,0 +1,29 @@
+{
+	"title":"Diálogos",
+	"dialogos":"Dialogues<span> on Creative Economy<span>",
+	"home":"Home",
+	"soon":"Coming soon",
+	"edition":"2016 Edition",
+	"about":"About",
+	"dates":"Dates",
+	"hour":"always between 7pm and 9pm",
+	"registration":"Registration",
+	"certificates":"Certificates",
+	"place":"Place",
+	"seminar":"Seminar",
+	"conferences":"Conferences",
+	"conference":"Conference",
+	"time":"Time",
+	"speaker":"Panelist",
+	"report":"Report",
+	"organization":"Organization",
+	"seeMore":"See more",
+	"description":[
+		{"paragraph":"The acknowledgment of culture and creativity as drivers of economic development has fostered the research on Creative Economy and Cultural Economics. Regarding this, the project “Dialogues on Creative Economy” promotes several debates about those aspects, bringing national and international experts to discuss frontier subjects on Creative Economy and Cultural Economics."},
+		{"paragraph":"In 2017, the project starts a new phase, strengthening the internationalization of <a href='http://www.ufrgs.br/obec'>OBEC</a> and Federal University of Rio Grande do Sul as well as discussing the following contemporaneous themes:"}
+	],
+	"description-items":[	
+		{"items":"Cultural Value and Culture Economic Value;"},
+		{"items":"Digitization: impacts on production and consumption;"}
+	]
+}

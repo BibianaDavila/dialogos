@@ -14,6 +14,12 @@
 					"university":"Universidade Paris XIII",
 					"resume":"Professor de Economia na universidade Paris XIII e coordenador do LABEX ICCA (Indústrias Culturais e Criação Artística).",
 					"picture":"frmoreau"
+				},
+				{
+					"name":"Ana Letícia Fialho",
+					"university":"Ministério da Cultura",
+					"resume":"Diretora de Estratégia Produtiva/Secretaria da Economia da Cultura.",
+					"picture":"afialho"
 				}
 			]
 		},
@@ -21,10 +27,51 @@
 			"id":"2",
 			"edition":"2", 
 			"type":"Conferência", 
-			"date-day":"26-27",
+			"date-day":"26",
+			"date-month":"Julho",
+			"title":"Economia Criativa e Política Pública: experiências institucionais",
+			"description":"Segundo aponta a UNCTAD, em seu Creative Report (2010), a economia criativa é um dos setores da economia mundial que mais rapidamnte tem crescido, não apenas em termos de geração de renda, mas na criação de empregos e receita de exportações. A Economia Criativa passou a ser vista pelos países, especialmente após o sucesso da experiência britânica, como uma maneira alternativa de promover não apenas o crescimento, como também o desenvolvimento econômico. Como consequência, o debate sobre Economia Criativa qualificou-se no âmbito público, resultando na implementação de políticas públicas visando o fomento de atividades culturais e criativas. Assim, a conferência irá promover o debate sobre as experiências locais na Argentina e no Brasil sobre as iniciativas públicas na promoção das atividades criativas e seus impactos.",
+			"panelists":[
+				{
+					"name":"Andrés Gribnicow",
+					"university":"Ministerio de Cultura de la Nación",
+					"resume":"Subsecretario de Economia Criativa da Argentina.",
+					"picture":"agribnicow"
+				},
+				{
+					"name":"Mora Scillamá",
+					"university":"Ministerio de Cultura de la Nación",
+					"resume":"Diretora Nacional de Indústrias Criativas da Argentina.",
+					"picture":"mscillama"
+				},
+				{
+					"name":"Martin Dowle",
+					"university":"British Council",
+					"resume":"Diretor do British Council Rio de Janeiro.",
+					"picture":"mdowle"
+				},
+				{
+					"name":"Mansur Bassit",
+					"university":"Ministério da Cultura",
+					"resume":"Secretário de Economia da Cultura do Ministério da Cultura.",
+					"picture":"mbassit"
+				},
+				{
+					"name":"Ana Letícia Fialho",
+					"university":"Ministério da Cultura",
+					"resume":"Diretora de Estratégia Produtiva/Secretaria da Economia da Cultura.",
+					"picture":"afialho2"
+				}
+			]
+		},
+		{
+			"id":"3",
+			"edition":"3", 
+			"type":"Conferência", 
+			"date-day":"27",
 			"date-month":"Julho",
 			"title":"Valor Cultural e <br/>Valor Econômico da Cultura ",
-			"description":"A análise do impacto econômico da cultura implica em esforços qualitativos e quantitativos para compreender quais esferas da sociedade são afetadas, subsidiando, assim, políticas públicas culturais. A conferência irá abordar os conceitos de valor cultural e refletir acerca da importância econômica da cultura, bem como discutir os limites e as possibilidades das teorias de valoração econômica quando aplicadas ao setor cultural.  ",
+			"description":"A análise do impacto econômico da cultura implica em esforços qualitativos e quantitativos para compreender quais esferas da sociedade são afetadas, subsidiando, assim, políticas públicas culturais. A conferência irá abordar os conceitos de valor cultural e refletir acerca da importância econômica da cultura, bem como discutir os limites e as possibilidades das teorias de valoração econômica quando aplicadas ao setor cultural.",
 			"panelists":[
 				{
 					"name":"Geoffrey Crossick",
@@ -37,6 +84,12 @@
 					"university":"City University de Londres",
 					"resume":"Professor de Economia da Cultura no Centro de Cultura e Indústrias Criativas da City University de Londres.",
 					"picture":"apratt"
+				},
+				{
+					"name":"Paul Heritage",
+					"university":"Queen Mary University of London",
+					"resume": "Diretor artístico do People’s Palace Project e professor de drama e performance na Queen Mary University of London.",
+					"picture": "pheritage1"
 				}
 			]
 		}

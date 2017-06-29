@@ -37,11 +37,11 @@
 	
 		<title><?php echo $general['title']?></title>
 		
-		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+		<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		
+
 	</head>
 	
 	<body>
@@ -66,9 +66,8 @@
 			</article>
 		</section>
 
-		<script async type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script async type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script async type="text/javascript" src="main.js"></script>
 
 	</body>
 </html>
