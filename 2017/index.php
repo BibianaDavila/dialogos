@@ -441,13 +441,13 @@
 
 						<!--=== logos realizadores! ===-->
 						<div class="realizador-images">
-							<img src="../image/realizadores/ufrgs.png" alt="UFRGS">
-							<img src="../image/realizadores/cegov.png" alt="CEGOV">
-							<img src="../image/realizadores/neccult.png" alt="NECCULT">
-							<img src="../image/realizadores/obec.png" id="obec" alt="OBEC">							
-							<img src="../image/realizadores/catavento.png" alt="Catavento">							
+							<a target="_blank" href="http://www.ufrgs.br/ufrgs/inicial"><img src="../image/realizadores/ufrgs.png" alt="UFRGS"></a>
+							<a target="_blank" href="http://www.ufrgs.br/obec/neccult/"><img src="../image/realizadores/neccult.png" style="height:25px" alt="NECCULT"></a>
+							<a target="_blank" href="http://www.ufrgs.br/obec/"><img src="../image/realizadores/obec.png" id="obec" alt="OBEC"></a>						
+							<img src="../image/realizadores/catavento.png" alt="Catavento">		
 							<br/>
-							<img src="../image/realizadores/brasil.png" alt="MinC">							
+							<a target="_blank" href="http://www.cultura.gov.br/"><img src="../image/realizadores/minc.png" alt="MinC"></a>							
+							<a target="_blank" href="http://www.brasil.gov.br/"><img src="../image/realizadores/brasil.png" alt="Governo Federal"></a>							
 						</div>				
 					</div>
 				</article>

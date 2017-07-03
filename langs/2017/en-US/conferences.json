@@ -87,6 +87,12 @@
 					"university":"Queen Mary University of London",
 					"resume": "Heritage is professor of Drama and Performance and Director of People’s Palace Projects, a School of English and Drama research centre and national portfolio organization of Arts Council England.  Since 1991, he has been creating arts and culture projects between the UK and Brazil, including 15 years of performance-based human rights projects with prisoners, guards and their families from São Paulo through to the Amazon region.",
 					"picture": "pheritage1"
+				},
+				{
+					"name":"Leandro Valiati",
+					"university":"Federal University of Rio Grande do Sul",
+					"resume": "",
+					"picture": "lvaliati2"
 				}
 			]
 		},
@@ -97,7 +103,7 @@
 			"type-flag":"2", 
 			"date-day":"26",
 			"date-month":"JULY",
-			"title":"Os dispêndios públicos e a economia da cultura no Brasil",
+			"title":"Government spending and the Economy of Culture in Brazil",
 			"description":"<b>Time:</b> 4h30min PM – 6h PM",
 			"panelists":[
 				{
@@ -113,10 +119,10 @@
 					"picture":"vtoscano"
 				},
 				{
-					"name":"Marcelo Milan",
-					"university":"Federal University of Rio Grande do Sul",
-					"resume":"",
-					"picture":"mmilan"
+					"name":"Ana Letícia Fialho",
+					"university":"Ministry of Culture",
+					"resume":"Director of Productive Strategy of the Secretary of Economy of Culture",
+					"picture":"afialho2"
 				}
 			]
 		},

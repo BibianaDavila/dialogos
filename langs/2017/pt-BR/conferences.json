@@ -87,6 +87,12 @@
 					"university":"Queen Mary University of London",
 					"resume": "É Professor de Teatro e Performance na Queen Mary University e diretor do People’s Palace Projects. Desde 1991, cria projetos artísticos e culturais entre o Brasil e o Reino Unido, o que inclui 15 anos de desenvolvimento de projetos a favor do Direitos Humanos. ",
 					"picture": "pheritage1"
+				},
+				{
+					"name":"Leandro Valiati",
+					"university":"Universidade Federal do Rio Grande do Sul",
+					"resume": "",
+					"picture": "lvaliati2"
 				}
 			]
 		},
@@ -113,10 +119,10 @@
 					"picture":"vtoscano"
 				},
 				{
-					"name":"Marcelo Milan",
-					"university":"Universidade Federal do Rio Grande do Sul",
-					"resume":"",
-					"picture":"mmilan"
+					"name":"Ana Letícia Fialho",
+					"university":"Ministério da Cultura",
+					"resume":"Diretora de Estratégia Produtiva/Secretaria da Economia da Cultura.",
+					"picture":"afialho2"
 				}
 			]
 		},
