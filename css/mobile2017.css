@@ -57,6 +57,9 @@ section article{
 .schedule-container{
     margin-bottom: 35px;
 }
+.place-address{
+	text-align: center !important;
+}
 .info{
 	max-width: 100%;
 	width: 100%;

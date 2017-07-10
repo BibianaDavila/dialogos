@@ -238,13 +238,19 @@
 						<div class="col-md-12 text-center">
 
 							<!-- link mapa -->
-							<a href="https://www.google.com.br/maps/@-30.0337546,-51.2191368,19.25z">
-								<img class="mapa img-fluid" src="../image/mapa.png" alt="Localização Mapa">
+							<a href="https://www1.ufrgs.br/infraestrutura/geolocation/">
+								<img class="mapa img-fluid" src="../image/locais.png" alt="Localização Mapa">
 							</a>
-							
-							<!-- endereço -->
-							<p class="place-address"><br/>Salão de Festas<br/>Reitoria da UFRGS, 2º andar <br>Av. Paulo Gama 110</p>
-						
+
+							<!-- endereço -->							
+							<div class="row">
+								<div class="col-sm-6">
+									<p class="place-address text-right"><br/><b>MINICURSOS</b><br/>Sala 43<br/>Faculdade de Ciências Econômicas<br>Av. João Pessoa 52 </p>								
+								</div>
+								<div class="col-sm-6">
+									<p class="place-address text-left"><br/><b>CONFERÊNCIAS</b><br/>Salão de Festas<br/>Reitoria da UFRGS, 2º andar<br>Av. Paulo Gama 110</p>
+								</div>
+							</div>						
 						</div>
 					</div>
 				</article>
