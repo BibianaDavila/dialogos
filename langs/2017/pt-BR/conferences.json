@@ -31,8 +31,8 @@
 			"type-flag":"1", 
 			"date-day":"26",
 			"date-month":"Julho",
-			"title":"Economia Criativa e Política Pública: experiências institucionais",
-			"description":"Segundo aponta a UNCTAD, em seu Creative Report (2010), a economia criativa é um dos setores da economia mundial que mais rapidamnte tem crescido, não apenas em termos de geração de renda, mas na criação de empregos e receita de exportações. A Economia Criativa passou a ser vista pelos países, especialmente após o sucesso da experiência britânica, como uma maneira alternativa de promover não apenas o crescimento, como também o desenvolvimento econômico. Como consequência, o debate sobre Economia Criativa qualificou-se no âmbito público, resultando na implementação de políticas públicas visando o fomento de atividades culturais e criativas. Assim, a conferência irá promover o debate sobre as experiências locais na Argentina e no Brasil sobre as iniciativas públicas na promoção das atividades criativas e seus impactos.",
+			"title":"Economia Criativa e Políticas Públicas: experiências institucionais",
+			"description":"<b>Horário:</b> 19h – 21h<br/><br/>Segundo aponta a UNCTAD, em seu Creative Report (2010), a economia criativa é um dos setores da economia mundial que mais rapidamente tem crescido, não apenas em termos de geração de renda, mas na criação de empregos e receita de exportações. A Economia Criativa passou a ser vista pelos países, especialmente após o sucesso da experiência britânica, como uma maneira alternativa de promover não apenas o crescimento, como também o desenvolvimento econômico. Como consequência, o debate sobre Economia Criativa qualificou-se no âmbito público, resultando na implementação de políticas públicas visando o fomento de atividades culturais e criativas. Assim, a conferência irá promover o debate sobre as experiências locais na Argentina e no Brasil sobre as iniciativas públicas na promoção das atividades criativas e seus impactos.",
 			"panelists":[
 				{
 					"name":"Andrés Gribnicow",
@@ -68,7 +68,7 @@
 			"date-day":"27",
 			"date-month":"Julho",
 			"title":"Valor Cultural e <br/>Valor Econômico da Cultura ",
-			"description":"A análise do impacto econômico da cultura implica em esforços qualitativos e quantitativos para compreender quais esferas da sociedade são afetadas, subsidiando, assim, políticas públicas culturais. A conferência irá abordar os conceitos de valor cultural e refletir acerca da importância econômica da cultura, bem como discutir os limites e as possibilidades das teorias de valoração econômica quando aplicadas ao setor cultural.",
+			"description":"<b>Horário:</b> 19h – 21h <br/><br/> A análise do impacto econômico da cultura implica em esforços qualitativos e quantitativos para compreender quais esferas da sociedade são afetadas, subsidiando assim políticas públicas culturais. A conferência irá abordar os conceitos de valor cultural e refletir acerca da importância econômica da cultura, bem como discutir os limites e as possibilidades das teorias de valoração econômica quando aplicadas ao setor cultural.",
 			"panelists":[
 				{
 					"name":"Geoffrey Crossick",
@@ -104,13 +104,13 @@
 			"date-day":"26",
 			"date-month":"Julho",
 			"title":"Os dispêndios públicos e a economia da cultura no Brasil",
-			"description":"<b>Horário:</b> 16h30min – 18h",
+			"description":"<b>Horário:</b> 16h30min – 18h<br/><br/>O minicurso tem como objetivo realizar uma análise do histórico e conjuntura do dispêndio público em cultura no Brasil, bem como suas conexões com as políticas públicas construídas no Ministério da Cultura para os setores de Economia da Cultura e Economia Criativa ao longo da estruturação da Plano Nacional de Cultura. Serão contempladas a visão do projeto do Sistema de Estatísticas e Informações Culturais do MINC, das políticas públicas para Economia da Cultura da Secretaria de Economia da Cultura do MINC e também a visão do Instituto Jones Neves dos Santos.",
 			"panelists":[
 				{
-					"name":"Frederico Barbosa",
-					"university":"Instituto de Planejamento e Pesquisa (Ipea)",
-					"resume":"É doutor em Sociologia pela Universidade de Brasília (UnB) e graduado em Antropologia pela mesma universidade, sendo pesquisador do Instituto de Planejamento e Pesquisa (Ipea) desde 1997. Professor do Mestrado Profissional em Desenvolvimento e Políticas Públicas promovido pelo Ipea, em parceria com a Escola Nacional de Saúde Pública (ENSP/Fiocruz) e a Escola de Governo em Saúde Núcleo Federal (Fiocruz); Professor permanente do Mestrado Profissional em Políticas Públicas e Desenvolvimento do IPEA; e Professor colaborador dos cursos de especialização e formação para carreiras da ENAP. Coordenou diversas pesquisas e avaliações sobre a economia da cultura e políticas públicas culturais.",
-					"picture":"fbarbosa"
+					"name":"Luiz Antônio Gouveia",
+					"university":"Ministério da Cultura",
+					"resume":"Coordenador-Geral de Estatística e Indicadores Culturais do Ministério da Cultura.",
+					"picture":"lgouveia"
 				},
 				{
 					"name":"Víctor Toscano",
@@ -133,8 +133,8 @@
 			"type-flag":"2", 
 			"date-day":"27",
 			"date-month":"Julho",
-			"title":"Minicurso",
-			"description":"<b>Horário:</b> 10h – 12h",
+			"title":"Reflexões sobre valor cultural e economia da cultura",
+			"description":"<b>Horário:</b> 10h – 12h<br/><br/>Como o valor cultural pode ser produzido, disseminado e se tornar sustentável em uma sociedade a partir das Indústrias Culturais e Criativas? Quais de seus impactos podem ser reconhecidos e medidos? A partir dessas duas perguntas, os professores Geoffrey Crossick e a Andy Pratt vão propor um encontro para livre reflexão e debate sobre esse sistema de valores e como acadêmicos podem encontrar meios para qualificar esse debate em uma perspectiva interdisciplinar.",
 			"panelists":[
 				{
 					"name":"Geoffrey Crossick",
@@ -157,8 +157,8 @@
 			"type-flag":"2", 
 			"date-day":"27",
 			"date-month":"Julho",
-			"title":"Minicurso",
-			"description":"<b>Horário:</b> 15h – 17h",
+			"title":"Valor cultural, gênero e vulnerabilidade social",
+			"description":"<b>Horário:</b> 15h – 17h<br/><br/>Práticas de geração de valor cultural a partir do encontro entre atividades artísticas e culturais e ações sociais pode ser um meio efetivo de empoderamento social e de gênero. A partir dessa temática, os professores Paul Heritage e Rossalind Gil vão propor um encontro para livre reflexão e debate sobre esse sistema de valores e como acadêmicos podem encontrar meios para qualificar esse debate em uma perspectiva interdisciplinar.",
 			"panelists":[
 				{
 					"name":"Rossalind Gill",
