@@ -47,7 +47,7 @@
        		
        		<!-- idioma -->
 			<div class="dropdown">
-				<img src="../image/icones/icon_lang.png" class="dropdown-toggle world-img" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" alt="Idioma">
+				<img src="../image/icones/icon_lang_gray.png" class="dropdown-toggle world-img" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" alt="Idioma">
 				<ul class="dropdown-menu lang-dropdown" aria-labelledby="dropdownMenu1">
 				    <li><a class="dropdown-item" href="?language=en">English</a></li>
 				    <li><a class="dropdown-item" href="?language=pt">Português</a></li>
