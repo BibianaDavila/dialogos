@@ -1,7 +1,8 @@
 {
 	"conferences" : [
 		{
-			"id":"1",
+			"id":"0",
+			"active":"0",
 			"edition":"1", 
 			"type":"Conference", 
 			"type-flag":"1", 
@@ -25,7 +26,8 @@
 			]
 		},
 		{
-			"id":"2",
+			"id":"1",
+			"active":"1",
 			"edition":"2", 
 			"type":"Conference", 
 			"type-flag":"1", 
@@ -53,16 +55,42 @@
 					"picture":"mdowle"
 				},
 				{
-					"name":"Mansur Bassit",
-					"university":"Ministry of Culture of Brazil",
-					"resume":"Secretary of Economy of Culture",
-					"picture":"mbassit"
+					"name":"Ana Letícia Fialho",
+					"university":"Ministry of Culture",
+					"resume":"Director of Productive Strategy of the Secretary of Economy of Culture",
+					"picture":"afialho3"
+				}
+			]
+		},
+		{
+			"id":"2",
+			"active":"1",
+			"edition":"3", 
+			"type":"Conference", 
+			"type-flag":"1", 
+			"date-day":"27",
+			"date-month":"JULY",
+			"title":"Cultural value, social and gender empowerment",
+			"description":"<b>Place:</b> Salão de Festas da Reitoria<br/><b>Time:</b> 3h PM – 5h PM<br/><br/>Practices of generating cultural value from the encounter between artistic and cultural activities and social actions can be effective means of social and gender empowerment. From this theme, Prof. Paul Heritage and Prof. Ross Gil will propose a meeting to reflect and debate on this value system and how academics can find ways to qualify this debate in an interdisciplinary perspective.",
+			"panelists":[
+				{
+					"name":"Rossalind Gill",
+					"university":"University of London",
+					"resume":"Gill is professor at University of London since October 2013. She studied Sociology and Psychology at Exeter University, and completed her PhD in Social Psychology at the Discourse and Rhetoric Group (DARG), Loughborough University in 1991. With an interdisciplinary background, she has worked across a number of disciplines including Sociology, Gender Studies and Media and Communications. Her career has included posts at Goldsmiths and King's College London, and she worked for ten years in the LSE's interdisciplinary Gender Institute. ",
+					"picture":"rgill"
+				},
+				{
+					"name":"Paul Heritage",
+					"university":"Queen Mary University of London",
+					"resume": "Heritage is professor of Drama and Performance and Director of People’s Palace Projects, a School of English and Drama research centre and national portfolio organization of Arts Council England.  Since 1991, he has been creating arts and culture projects between the UK and Brazil, including 15 years of performance-based human rights projects with prisoners, guards and their families from São Paulo through to the Amazon region.",
+					"picture": "pheritage2"
 				}
 			]
 		},
 		{
 			"id":"3",
-			"edition":"3", 
+			"active":"1",
+			"edition":"4", 
 			"type":"Conference", 
 			"type-flag":"1", 
 			"date-day":"27",
@@ -83,12 +111,6 @@
 					"picture":"apratt"
 				},
 				{
-					"name":"Paul Heritage",
-					"university":"Queen Mary University of London",
-					"resume": "Heritage is professor of Drama and Performance and Director of People’s Palace Projects, a School of English and Drama research centre and national portfolio organization of Arts Council England.  Since 1991, he has been creating arts and culture projects between the UK and Brazil, including 15 years of performance-based human rights projects with prisoners, guards and their families from São Paulo through to the Amazon region.",
-					"picture": "pheritage1"
-				},
-				{
 					"name":"Leandro Valiati",
 					"university":"Federal University of Rio Grande do Sul",
 					"resume": "Economist, Master in Urban planning with an emphasis on Cultural Economics, PhD in Development Economics. Professor of Economics and International Relations at the Federal University of Rio Grande do Sul (public servant with tenure). Professor, consultant and researcher in Cultural Economics at national and international institutions, including Brazil’s Ministry of Culture, United Nations Educational, Scientific and Cultural Organization (UNESCO), Organization of Ibero-American States (OEI), University of Valencia (Spain) and Labex -ICCA (University Paris 13, Sorbonne - France). Author of the books: Cultural Economics: Economic Welfare and Cultural Evolution (2007); Cinema and Cultural Economics (2009); Creative Industries in Rio Grande do Sul: theoretical overview and empirical evidence (2012); Creative Economy, Culture and Public Policies (2016). Coordinator of Creative Economy Observatory network in Brazil. Coordinator of Working Group Creative Economy, Culture and Public Policy in <a href='http://ufrgs.br/cegov'>Center for International Studies on Government</a> and the Research Group Creative Economy, Culture and Development (National Council of Scientific Research). Member of Association for Cultural Economics International (ACEI)",
@@ -98,6 +120,7 @@
 		},
 		{
 			"id":"4",
+			"active":"1",
 			"edition":"1", 
 			"type":"Short Course", 
 			"type-flag":"2", 
@@ -122,6 +145,7 @@
 		},
 		{
 			"id":"5",
+			"active":"1",
 			"edition":"2", 
 			"type":"Short Course", 
 			"type-flag":"2", 
@@ -141,30 +165,6 @@
 					"university":"City University de Londres",
 					"resume":"Pratt is an internationally acclaimed expert on the topic of the cultural industries. He is a Fellow of the Royal Society of Arts, a Fellow of the Royal Geographical Society, and an Academician of the Academy of Social Sciences. He has held academic appointments at University College London (Bartlett School of Planning) and LSE (Geography, and Urban Research Centre), King’s College, London (Culture, Media and Creative Industries). He joined City University as Professor of Cultural Economy in 2013. Andy has worked as a consultant or advisor for national and urban policy makers, and the EU, UNESCO, UNCTAD, and WIPO, and the British Council.",
 					"picture":"apratt2"
-				}
-			]
-		},
-		{
-			"id":"6",
-			"edition":"3", 
-			"type":"Short Course", 
-			"type-flag":"2", 
-			"date-day":"27",
-			"date-month":"JULY",
-			"title":"Cultural value, social and gender empowerment",
-			"description":"<b>Place:</b> Sala 43 da Faculdade de Ciências Econômicas<br/><b>Time:</b> 3h PM – 5h PM<br/><br/>Practices of generating cultural value from the encounter between artistic and cultural activities and social actions can be effective means of social and gender empowerment. From this theme, Prof. Paul Heritage and Prof. Ross Gil will propose a meeting to reflect and debate on this value system and how academics can find ways to qualify this debate in an interdisciplinary perspective.",
-			"panelists":[
-				{
-					"name":"Rossalind Gill",
-					"university":"University of London",
-					"resume":"Gill is professor at University of London since October 2013. She studied Sociology and Psychology at Exeter University, and completed her PhD in Social Psychology at the Discourse and Rhetoric Group (DARG), Loughborough University in 1991. With an interdisciplinary background, she has worked across a number of disciplines including Sociology, Gender Studies and Media and Communications. Her career has included posts at Goldsmiths and King's College London, and she worked for ten years in the LSE's interdisciplinary Gender Institute. ",
-					"picture":"rgill"
-				},
-				{
-					"name":"Paul Heritage",
-					"university":"Queen Mary University of London",
-					"resume": "Heritage is professor of Drama and Performance and Director of People’s Palace Projects, a School of English and Drama research centre and national portfolio organization of Arts Council England.  Since 1991, he has been creating arts and culture projects between the UK and Brazil, including 15 years of performance-based human rights projects with prisoners, guards and their families from São Paulo through to the Amazon region.",
-					"picture": "pheritage2"
 				}
 			]
 		}

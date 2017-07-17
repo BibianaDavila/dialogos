@@ -118,10 +118,12 @@ a{
     opacity: .5;
 }
 /*=== Botões ======================*/
-.button {
+.button,.button:visited{
+    vertical-align: middle;
     display: inline-block !important;
     margin: 22px !important;
     width: 155px;
+    height: 55px;
     font-family: "Lato Regular";
     font-size: 12px;
     font-weight: bold;
@@ -134,8 +136,10 @@ a{
     padding: 8px 0px;
     transition: all .5s ease;
 }
-
-.button:hover {
+.button.oneLine{
+    line-height: 35px;
+}
+.button:hover{
     text-decoration: none !important;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     background-color: #161c1f;
@@ -252,7 +256,7 @@ a{
 }
 /*=== Datas ===================*/
 .schedule-container{
-    margin-bottom: 135px;
+    margin-bottom: 65px;
     color: #6f6e73;
 }
 .schedule-date{
@@ -262,14 +266,17 @@ a{
 }
 .date-title{
     font-size: 16px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 .schedule-date-container{
     padding: 0px;
     margin-top: 5px;
 }
 .schedule-date.day{
-    font-size: 70px;
+    font-size: 48px;
+}
+.img-conf .schedule-date.day{
+    font-size: 60px;
 }
 /*.right .schedule-date.day{
     line-height: 100px;
@@ -277,9 +284,13 @@ a{
     font-size: 50px;
 }*/
 .schedule-date.month{
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
     font-style: italic;
+    margin-top: -12px;
+}
+.img-conf .schedule-date.month{
+    font-size: 20px;
     margin-top: -20px;
 }
 .schedule-hour{
@@ -289,14 +300,14 @@ a{
     margin-bottom: 40px;
 }
 .schedule-block {
-    padding: 0 0 128px 0px;
-    margin: 25px 25px 0 25px;
+    padding: 0 0 94px 0px;
+    margin: 15px 25px 0 25px;
     border-bottom: 5px solid #d7d7d9;
 }
 .schedule-content{
     position: absolute;
     bottom: 0px;
-    padding-left: 95px;
+    padding-left: 75px;
 }
 .right .schedule-content{
     padding-left: 150px;

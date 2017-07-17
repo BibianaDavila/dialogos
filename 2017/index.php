@@ -151,48 +151,50 @@
 						<div class="col-sm-6 col-xs-12">
 							<?php foreach ($conferences as $key => $val) :?>
 								<?php foreach ($val as $a => $b) :?>
-									<div class="col-sm-12 col-xs-8 col-xs-offset-2 col-sm-offset-0">
-										<div class="schedule-block">
+									<?php if($b['active']):?>
+										<div class="col-sm-12 col-xs-8 col-xs-offset-2 col-sm-offset-0">
+											<div class="schedule-block">
 
-											<a class="onepage-pagination-link link" data-index="<?php echo $b['id']+4;?>" href="#<?php echo $b['id']+4;?>">
+												<a class="onepage-pagination-link link" data-index="<?php echo $b['id']+4;?>" href="#<?php echo $b['id']+4;?>">
 
-												<!-- data -->
-												<div class="col-xs-6 schedule-date-container">
-													<div class="schedule-date day"><?php echo $b['date-day'];?></div>
-													<div class="schedule-date month"><?php echo $b['date-month'];?></div>
-												</div>
+													<!-- data -->
+													<div class="col-xs-6 schedule-date-container">
+														<div class="schedule-date day"><?php echo $b['date-day'];?></div>
+														<div class="schedule-date month"><?php echo $b['date-month'];?></div>
+													</div>
 
-												<!-- descrição -->
-												<div class="col-xs-10 schedule-content">
-													<p class="date-title text-left"><?php echo $b['title'];?></p>
-												</div>
-											
-											</a>
+													<!-- descrição -->
+													<div class="col-xs-10 schedule-content">
+														<p class="date-title text-left"><?php echo $b['title'];?></p>
+													</div>
+												
+												</a>
 
+											</div>
 										</div>
-									</div>
 
-									<?php if($a!=0 && isset($val[$a+1]) && ($b['type-flag']!=$val[$a+1]['type-flag'])):?>
-											</div>
-
-											<div class="col-xs-12 text-center visible-xs">
-												<div class="section-title">
-
-													<!-- circulos -->
-													<div class="section-title-circle"></div>
-													
-													<!-- titulo -->
-													<h1 class="the-title"><?php echo $general['shortcourses']?></h1>
-													
-													<!-- ano -->
-													<div class="section-title-line"></div><span class="year">2017</span><div class="section-title-line"></div>
-
+										<?php if($a!=0 && isset($val[$a+1]) && ($b['type-flag']!=$val[$a+1]['type-flag'])):?>
 												</div>
-											</div>
-											<div class='col-sm-6'>
+
+												<div class="col-xs-12 text-center visible-xs">
+													<div class="section-title">
+
+														<!-- circulos -->
+														<div class="section-title-circle"></div>
+														
+														<!-- titulo -->
+														<h1 class="the-title"><?php echo $general['shortcourses']?></h1>
+														
+														<!-- ano -->
+														<div class="section-title-line"></div><span class="year">2017</span><div class="section-title-line"></div>
+
+													</div>
+												</div>
+												<div class='col-sm-6'>
+
+										<?php endif;?>
 
 									<?php endif;?>
-
 								<?php endforeach;?>
 							<?php endforeach;?>
 
@@ -202,10 +204,13 @@
 						<div class="col-lg-12 col-md-12 col-sm-12 text-center">
 							
 							<!-- certificados -->
-							<a href="https://www1.ufrgs.br/extensao/portal/index.php" class="button"><?php echo $general['certificates']?></a>
+							<a href="https://www1.ufrgs.br/extensao/portal/index.php" class="button oneLine" target="_blank"><?php echo $general['certificates']?></a>
 
 							<!-- inscrições -->
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdnOTqEqJT1VXKBtYXqA6VvX2oWgVIwqwn8j5R-onkQT2fKzw/viewform" class="button"><?php echo $general['registration']?></a>					
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSd1GdfMLiaf-rqQ-okDPaDf-E4kh3Rg3wcfnrMaJU8NASrW0w/viewform" class="button" target="_blank"><?php echo $general['registration-conf']?></a>	
+
+							<!-- inscrições -->
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSf2LRksGvKCRb7IpLkmKW6nHGlHnHucYwXpuRBoBIK7StTNHw/viewform" class="button" target="_blank"><?php echo $general['registration-course']?></a>
 
 						</div>
 					</div>
@@ -259,170 +264,171 @@
 			<!--=== conferências ===-->
 			<?php foreach ($conferences as $conference) :?>
 				<?php foreach ($conference as $value) :?>
-					<section class="conference-section" id="conference-<?php echo $value['id'];?>">
-						<article>
+					<?php if($value['active']):?>:
+						<section class="conference-section" id="conference-<?php echo $value['id'];?>">
+							<article>
 
-							<!--=== título seção! ===-->
-							<div class="row title-conf">
-								<div class="section-title text-center">
+								<!--=== título seção! ===-->
+								<div class="row title-conf">
+									<div class="section-title text-center">
 
-									<!-- circulos -->
-									<div class="section-title-circle"></div>
-									
-									<!-- titulo -->
-									<h1 class="the-title"><?php echo $value['type']?> <?php echo $value['edition'];?></h1>
-									
-									<!-- ano -->
-									<div class="section-title-line"></div><span class="year">2017</span><div class="section-title-line"></div>
+										<!-- circulos -->
+										<div class="section-title-circle"></div>
+										
+										<!-- titulo -->
+										<h1 class="the-title"><?php echo $value['type']?></h1>
+										
+										<!-- ano -->
+										<div class="section-title-line"></div><span class="year">2017</span><div class="section-title-line"></div>
 
-								</div>
-
-							</div>
-
-							<!--=== conteúdo conferências! ===-->
-							<div class="row">
-
-								<!-- imagem -->
-								<div class="col-sm-6 no-border img-conf <?php if( $value['id']%2==0 ) echo right; ?>">
-									<!-- data -->
-									<div class="conf-date">
-										<div class="col-xs-12 schedule-date-container">
-											<div class="schedule-date day"><?php echo $value['date-day'];?></div>
-											<div class="schedule-date month"><?php echo $value['date-month'];?></div>
-										</div>
 									</div>
 
-									<img class="img-fluid" src="../image/2017/<?php echo $value['id'];?>.png" alt="Imagem conferência">
 								</div>
 
-								<!-- texto -->
-								<div class="col-sm-6 <?php if( $value['id']%2==0 ) echo left; ?>">	
-									<div class="info">		
+								<!--=== conteúdo conferências! ===-->
+								<div class="row">
 
-										<!-- titulo -->
-										<h2 class="conference-title"><?php echo $value['title'];?></h2>
-										
-										<!-- descrição -->
-										<p class="conference-description"><?php echo $value['description'];?></p>
-
-										<!-- palestrantes -->
-										<h6 class="block-headline"><?php echo $value['panelists'] != NULL ? $general['speaker'] : '' ;?></h6>
-										
-										<?php foreach ($value['panelists'] as $panelist) :?>
-											
-											<!-- link palestrante -->
-											<div class="conference-modal" data-toggle="modal" data-target="<?php echo '#modal' . $panelist['picture']?>">
-												
-												<!-- imagem palestrante -->
-												<img src="<?php echo '../image/profiles/' . $panelist['picture'] . '.png';?>" alt="Palestrante">
-												
-												<!-- nome + uni palestrante -->
-												<p><?php echo $panelist['name'];?><br/><?php echo $panelist['university'];?></p>
-
+									<!-- imagem -->
+									<div class="col-sm-6 no-border img-conf <?php if( $value['id']%2==0 ) echo right; ?>">
+										<!-- data -->
+										<div class="conf-date">
+											<div class="col-xs-12 schedule-date-container">
+												<div class="schedule-date day"><?php echo $value['date-day'];?></div>
+												<div class="schedule-date month"><?php echo $value['date-month'];?></div>
 											</div>
+										</div>
 
-										<?php endforeach?>
+										<img class="img-fluid" src="../image/2017/<?php echo $value['id'];?>.png" alt="Imagem conferência">
+									</div>
 
-										<!--== link relatório ==-->
-										<h6 class="block-headline"><?php echo $value['report'] != NULL ? $general['report'] : '' ;?></h6>
-										
-										<?php foreach ($value['report'] as $report) :?>
-											<a href="<?php echo $report['link']?>" target="_blank" class="link-report">
-												<?php echo $report['name']?>
-											</a>
-										<?php endforeach;?>
+									<!-- texto -->
+									<div class="col-sm-6 <?php if( $value['id']%2==0 ) echo left; ?>">	
+										<div class="info">		
 
-										<!--== link social media ==-->
-										<h6 class="block-headline"><?php echo ($value['youtube'] != NULL || $value['facebook'] != NULL) ? $general['seeMore'] : ''?></h6>
-										
-										<!-- youtube! -->
-										<?php if ($value['youtube'] != NULL):?>
-											<a href="<?php echo $d['link']?>" class="link-buttons" data-toggle="modal" data-target="#youtube<?php echo $value['id']?>">
-												<img class="video-icon" src="../image/icones/play.png" alt="Vídeo">
-											</a>
-										<?php endif;?>
-										
-										<!-- facebook! -->
-										<?php if ($value['facebook'] != NULL):?>
-											<a href="<?php echo $value['facebook']?>" class="link-buttons" target="_blanck">
-												<img class="video-icon" src="../image/icones/facebook.png" alt="Facebook">
-											</a>
-										<?php endif;?>
+											<!-- titulo -->
+											<h2 class="conference-title"><?php echo $value['title'];?></h2>
+											
+											<!-- descrição -->
+											<p class="conference-description"><?php echo $value['description'];?></p>
 
-
-										<!--=== modal video do youtube ===-->
-										<div class="modal fade" id="youtube<?php echo $value['id']?>" tabindex="-1" role="dialog" aria-labelledby="video-<?php echo $value['id']?>" aria-hidden="true">
-											<div class="modal-dialog" role="document">
-												<div class="modal-content">
+											<!-- palestrantes -->
+											<h6 class="block-headline"><?php echo $value['panelists'] != NULL ? $general['speaker'] : '' ;?></h6>
+											
+											<?php foreach ($value['panelists'] as $panelist) :?>
+												
+												<!-- link palestrante -->
+												<div class="conference-modal" data-toggle="modal" data-target="<?php echo '#modal' . $panelist['picture']?>">
 													
-													<!-- cabeçalho -->
-													<div class="modal-header">
-														
-														<!-- botão fechar -->
-														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-															<span aria-hidden="true">&times;</span>
-														</button>
-														
-														<!-- ícone vídeo -->
-														<img class="modal-picture modal-video" src="../image/icones/video_2x.png" alt="Vídeo">
-														
-														<!-- titulo -->
-														<h4 class="modal-title" id="video-<?php echo $value['id']?>">Video</h4>
+													<!-- imagem palestrante -->
+													<img src="<?php echo '../image/profiles/' . $panelist['picture'] . '.png';?>" alt="Palestrante">
 													
-													</div>
-													
-													<!-- link para o vídeo -->
-													<div class="modal-body">
-														<?php foreach ($value['youtube'] as $data) :?>
-															<a class="modalVideo-item" href="<?php echo $data['link'];?>">
-																<?php echo $data['name'];?>
-															</a>
-														<?php endforeach?>
-													</div>
+													<!-- nome + uni palestrante -->
+													<p><?php echo $panelist['name'];?><br/><?php echo $panelist['university'];?></p>
 
 												</div>
+
+											<?php endforeach?>
+
+											<!--== link relatório ==-->
+											<h6 class="block-headline"><?php echo $value['report'] != NULL ? $general['report'] : '' ;?></h6>
+											
+											<?php foreach ($value['report'] as $report) :?>
+												<a href="<?php echo $report['link']?>" target="_blank" class="link-report">
+													<?php echo $report['name']?>
+												</a>
+											<?php endforeach;?>
+
+											<!--== link social media ==-->
+											<h6 class="block-headline"><?php echo ($value['youtube'] != NULL || $value['facebook'] != NULL) ? $general['seeMore'] : ''?></h6>
+											
+											<!-- youtube! -->
+											<?php if ($value['youtube'] != NULL):?>
+												<a href="<?php echo $d['link']?>" class="link-buttons" data-toggle="modal" data-target="#youtube<?php echo $value['id']?>">
+													<img class="video-icon" src="../image/icones/play.png" alt="Vídeo">
+												</a>
+											<?php endif;?>
+											
+											<!-- facebook! -->
+											<?php if ($value['facebook'] != NULL):?>
+												<a href="<?php echo $value['facebook']?>" class="link-buttons" target="_blanck">
+													<img class="video-icon" src="../image/icones/facebook.png" alt="Facebook">
+												</a>
+											<?php endif;?>
+
+
+											<!--=== modal video do youtube ===-->
+											<div class="modal fade" id="youtube<?php echo $value['id']?>" tabindex="-1" role="dialog" aria-labelledby="video-<?php echo $value['id']?>" aria-hidden="true">
+												<div class="modal-dialog" role="document">
+													<div class="modal-content">
+														
+														<!-- cabeçalho -->
+														<div class="modal-header">
+															
+															<!-- botão fechar -->
+															<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																<span aria-hidden="true">&times;</span>
+															</button>
+															
+															<!-- ícone vídeo -->
+															<img class="modal-picture modal-video" src="../image/icones/video_2x.png" alt="Vídeo">
+															
+															<!-- titulo -->
+															<h4 class="modal-title" id="video-<?php echo $value['id']?>">Video</h4>
+														
+														</div>
+														
+														<!-- link para o vídeo -->
+														<div class="modal-body">
+															<?php foreach ($value['youtube'] as $data) :?>
+																<a class="modalVideo-item" href="<?php echo $data['link'];?>">
+																	<?php echo $data['name'];?>
+																</a>
+															<?php endforeach?>
+														</div>
+
+													</div>
+												</div>
+											</div>			
+										</div>
+									</div>
+								</div>
+
+							</article>
+
+							<?php foreach ($value['panelists'] as $panelist) :?>
+												
+								<!-- modal palestrante -->
+								<div class="modal  <?php if( $value['id']%2==0 ) echo 'left-modal'; ?> fade panelist" id="<?php echo 'modal' . $panelist['picture']?>" tabindex="-1" role="dialog" aria-labelledby="profile-<?php echo $panelist['picture']?>" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+
+											<!-- cabeçalho -->
+											<div class="modal-header">
+												
+												<!-- fechar -->
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+
+												<!-- imagem -->
+												<img class="modal-picture" src="<?php echo '../image/profiles/' . $panelist['picture'] . '.png';?>" alt="Palestrante">
+												
+												<!-- nome -->
+												<h4 class="modal-title" id="profile-<?php echo $panelist['picture']?>"><?php echo $panelist['name'];?><span><?php echo $panelist['university'];?></span></h4>
 											</div>
-										</div>			
+											
+											<!-- conteúdo ::: bio -->
+											<div class="modal-body">
+												<p><?php echo $panelist['resume'];?></p>
+											</div>
+
+										</div>
 									</div>
 								</div>
-							</div>
 
-						</article>
-
-						<?php foreach ($value['panelists'] as $panelist) :?>
-											
-							<!-- modal palestrante -->
-							<div class="modal  <?php if( $value['id']%2==0 ) echo 'left-modal'; ?> fade panelist" id="<?php echo 'modal' . $panelist['picture']?>" tabindex="-1" role="dialog" aria-labelledby="profile-<?php echo $panelist['picture']?>" aria-hidden="true">
-								<div class="modal-dialog" role="document">
-									<div class="modal-content">
-
-										<!-- cabeçalho -->
-										<div class="modal-header">
-											
-											<!-- fechar -->
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-
-											<!-- imagem -->
-											<img class="modal-picture" src="<?php echo '../image/profiles/' . $panelist['picture'] . '.png';?>" alt="Palestrante">
-											
-											<!-- nome -->
-											<h4 class="modal-title" id="profile-<?php echo $panelist['picture']?>"><?php echo $panelist['name'];?><span><?php echo $panelist['university'];?></span></h4>
-										</div>
-										
-										<!-- conteúdo ::: bio -->
-										<div class="modal-body">
-											<p><?php echo $panelist['resume'];?></p>
-										</div>
-
-									</div>
-								</div>
-							</div>
-
-						<?php endforeach?>
-
-					</section>
+							<?php endforeach?>
+						</section>
+					<?php endif;?>
 				<?php endforeach?>
 			<?php endforeach?>
 

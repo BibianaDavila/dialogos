@@ -1,7 +1,8 @@
 {
 	"conferences" : [
 		{
-			"id":"1",
+			"id":"0",
+			"active":"0",
 			"edition":"1", 
 			"type":"Conferência",
 			"type-flag":"1", 
@@ -25,7 +26,8 @@
 			]
 		},
 		{
-			"id":"2",
+			"id":"1",
+			"active":"1",
 			"edition":"2", 
 			"type":"Conferência", 
 			"type-flag":"1", 
@@ -53,16 +55,42 @@
 					"picture":"mdowle"
 				},
 				{
-					"name":"Mansur Bassit",
+					"name":"Ana Letícia Fialho",
 					"university":"Ministério da Cultura",
-					"resume":"Secretário de Economia da Cultura do Ministério da Cultura.",
-					"picture":"mbassit"
+					"resume":"Diretora de Estratégia Produtiva/Secretaria da Economia da Cultura.",
+					"picture":"afialho3"
+				}
+			]
+		},
+		{
+			"id":"2",
+			"active":"1",
+			"edition":"3", 
+			"type":"Conferência", 
+			"type-flag":"1", 
+			"date-day":"27",
+			"date-month":"Julho",
+			"title":"Valor cultural, gênero e vulnerabilidade social",
+			"description":"<b>Local:</b> Salão de Festas da Reitoria<br/><b>Horário:</b> 15h – 17h<br/><br/>Práticas de geração de valor cultural a partir do encontro entre atividades artísticas e culturais e ações sociais pode ser um meio efetivo de empoderamento social e de gênero. A partir dessa temática, os professores Paul Heritage e Rossalind Gil vão propor um encontro para livre reflexão e debate sobre esse sistema de valores e como acadêmicos podem encontrar meios para qualificar esse debate em uma perspectiva interdisciplinar.",
+			"panelists":[
+				{
+					"name":"Rossalind Gill",
+					"university":"University of London",
+					"resume":"É professora na University of London desde 2013. Estudou Sociologia e Psicologia na Exeter University e concluiu seu doutorado em Psicologia Social no grupo de discurso e retórica pela Loughborough University em 1991. Com um conhecimento interdisciplinar, trabalhou com uma variedade de disciplinas, incluindo sociologia, estudos de gêneros e mídia e comunicações. Sua carreira inclui trabalhos na Goldsmiths e no King’s College London, além de ter trabalhado por dez anos no Instituto Interdisciplinar de Gênero da LSE.",
+					"picture":"rgill"
+				},
+				{
+					"name":"Paul Heritage",
+					"university":"Queen Mary University of London",
+					"resume": "É Professor de Teatro e Performance na Queen Mary University e diretor do People’s Palace Projects. Desde 1991, cria projetos artísticos e culturais entre o Brasil e o Reino Unido, o que inclui 15 anos de desenvolvimento de projetos a favor do Direitos Humanos. ",
+					"picture": "pheritage2"
 				}
 			]
 		},
 		{
 			"id":"3",
-			"edition":"3", 
+			"active":"1",
+			"edition":"4", 
 			"type":"Conferência", 
 			"type-flag":"1", 
 			"date-day":"27",
@@ -83,12 +111,6 @@
 					"picture":"apratt"
 				},
 				{
-					"name":"Paul Heritage",
-					"university":"Queen Mary University of London",
-					"resume": "É Professor de Teatro e Performance na Queen Mary University e diretor do People’s Palace Projects. Desde 1991, cria projetos artísticos e culturais entre o Brasil e o Reino Unido, o que inclui 15 anos de desenvolvimento de projetos a favor do Direitos Humanos. ",
-					"picture": "pheritage1"
-				},
-				{
 					"name":"Leandro Valiati",
 					"university":"Universidade Federal do Rio Grande do Sul",
 					"resume": "Economista, Mestre em Urbanismo com ênfase em Economia da Cultura, Doutor em Economia do Desenvolvimento. Professor do Departamento de Economia e Relações Internacionais da Universidade Federal do Rio Grande do Sul. Professor, consultor e pesquisador em Economia da Cultura em instituições nacionais e internacionais, entre elas Ministério da Cultura do Brasil, FACAMP, UNESCO, Organização dos Estados Ibero Americanos (OEI), Universidade de Valência - Espanha e Universidade Paris XII - Sorbonne. Organizador e autor dos livros Economia da Cultura: Bem-Estar Econômico e Evolução Cultural, editora da UFRGS; Economia da Cultura e Cinema: notas empíricas sobre o Rio Grande do Sul, editora Terceiro Nome; Industrias Criativas no Rio Grande do Sul: síntese teórica e evidências empíricas, Editora da FEE; Economia Criativa, Cultura e Políticas Públicas, editora da UFRGS. Coordenador do Observatório de Economia Criativa da UFRGS. Coordenador do GT Economia Criativa, Cultura e Políticas Públicas no <a href='http://www.ufrgs.br/cegov'>CEGOV/UFRGS</a> e do Grupo de Pesquisa CNPQ Economia Criativa, Cultura e Desenvolvimento.",
@@ -98,6 +120,7 @@
 		},
 		{
 			"id":"4",
+			"active":"1",
 			"edition":"1", 
 			"type":"Minicurso", 
 			"type-flag":"2", 
@@ -122,6 +145,7 @@
 		},
 		{
 			"id":"5",
+			"active":"1",
 			"edition":"2", 
 			"type":"Minicurso", 
 			"type-flag":"2", 
@@ -141,30 +165,6 @@
 					"university":"City University de Londres",
 					"resume":"É especialista internacional em Indústrias Culturais. Professor de Economia da Cultura  na City University of London, também é membro da Royal Society of Arts e da Royal Geographical Society, além de acadêmico da Academy of Social Sciences. Andy é professor convidado da University College of London, London School of Economics, King’s College. Ainda, trabalhou como consultor para construção de políticas nacionais e urbanas na União Europeia, na UNESCO, na UNCTAD na OMS e no British Council. ",
 					"picture":"apratt2"
-				}
-			]
-		},
-		{
-			"id":"6",
-			"edition":"3", 
-			"type":"Minicurso", 
-			"type-flag":"2", 
-			"date-day":"27",
-			"date-month":"Julho",
-			"title":"Valor cultural, gênero e vulnerabilidade social",
-			"description":"<b>Local:</b> Sala 43 da Faculdade de Ciências Econômicas<br/><b>Horário:</b> 15h – 17h<br/><br/>Práticas de geração de valor cultural a partir do encontro entre atividades artísticas e culturais e ações sociais pode ser um meio efetivo de empoderamento social e de gênero. A partir dessa temática, os professores Paul Heritage e Rossalind Gil vão propor um encontro para livre reflexão e debate sobre esse sistema de valores e como acadêmicos podem encontrar meios para qualificar esse debate em uma perspectiva interdisciplinar.",
-			"panelists":[
-				{
-					"name":"Rossalind Gill",
-					"university":"University of London",
-					"resume":"É professora na University of London desde 2013. Estudou Sociologia e Psicologia na Exeter University e concluiu seu doutorado em Psicologia Social no grupo de discurso e retórica pela Loughborough University em 1991. Com um conhecimento interdisciplinar, trabalhou com uma variedade de disciplinas, incluindo sociologia, estudos de gêneros e mídia e comunicações. Sua carreira inclui trabalhos na Goldsmiths e no King’s College London, além de ter trabalhado por dez anos no Instituto Interdisciplinar de Gênero da LSE.",
-					"picture":"rgill"
-				},
-				{
-					"name":"Paul Heritage",
-					"university":"Queen Mary University of London",
-					"resume": "É Professor de Teatro e Performance na Queen Mary University e diretor do People’s Palace Projects. Desde 1991, cria projetos artísticos e culturais entre o Brasil e o Reino Unido, o que inclui 15 anos de desenvolvimento de projetos a favor do Direitos Humanos. ",
-					"picture": "pheritage2"
 				}
 			]
 		}

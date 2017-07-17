@@ -8,6 +8,8 @@
 	"dates":"Dates",
 	"hour":"always between 7pm and 9pm",
 	"registration":"Registration",
+	"registration-conf":"Registration Conferences",
+	"registration-course":"Registration Short Courses",
 	"certificates":"Certificates",
 	"place":"Place",
 	"seminar":"Seminar",
